@@ -37,11 +37,14 @@ include_random_data = TRUE
 author_num = 6
 author_col = rainbow(n = author_num, start = 0, end = 1)
 sheet_num = 2
-write_pdf = TRUE
+write_pdf = FALSE
 output_pdf_filename = '~/Documents/elicitations_test_1.pdf'
 worksheets_to_use = c(2, 3)
 plot_lwd = 1
 plot_lty = 1
+mean_plot_lwd = 2
+mean_plot_lty = 1
+
 col_vec = c(2, 3, 4)
 time_vec = c(0, 20, 40, 60)
 lty_vec = c(1, 1, 2)
@@ -50,14 +53,14 @@ nx = 3
 ny = 2
 plot_x_space = 2
 plot_y_space = 2
-plot_selection_type = 'by_author'
+plot_selection_type = 'by_plot'
 
 sheet_characteristics = gs_ls()
 author_sheets_to_use = grepl('CPW_elicitation', sheet_characteristics$sheet_title)
 
 googlesheet_names = sheet_characteristics$sheet_title[author_sheets_to_use]
 
-col_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confidence 50-100 (%)',	
+column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confidence 50-100 (%)',	
               '90% CI (LB)',	'90% CI (UB)')
 
 
@@ -80,7 +83,7 @@ for (author_ind in seq(author_num)){
     #data_to_use = current_sheet_data[rows_to_use, 1:7]
     
     data_to_use = current_sheet_data[, 1:7]
-    names(data_to_use) = col_names
+    names(data_to_use) = column_names
     plot_names[[current_sheet_ind]][[author_ind]] = data_to_use[, 1]
 
     current_data = data.matrix(data_to_use)
@@ -114,7 +117,9 @@ if (write_pdf == TRUE){
 
 for (sheet_ind in 1:sheet_num){
   current_plot_starts = plot_starts[[sheet_ind]]
-  
+  if (plot_selection_type == 'by_plot'){
+    setup_sub_plots(nx, ny = length(current_plot_starts), plot_x_space, plot_y_space)
+  }
   for (plot_ind in 1:length(current_plot_starts)){
     current_plot_vec = current_plot_starts[plot_ind]:(current_plot_starts[plot_ind] + 3)
     plot_list = lapply(seq_along(numerical_data[[sheet_ind]]), function(i) numerical_data[[sheet_ind]][[i]][current_plot_vec, ])
@@ -130,23 +135,27 @@ for (sheet_ind in 1:sheet_num){
                           col_vec = rep(author_col[author_ind], 3), lty_vec, lwd_vec = rep(plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
         overlay_plot_list(plot_type = 'overlay', mean_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = current_plot_name, ylab = '', x_lab = '', 
-                          col_vec = rep('black', 3), lty_vec, lwd_vec = rep(plot_lwd, length(plot_list)), 
+                          col_vec = rep('black', 3), lty_vec, lwd_vec = rep(mean_plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
         
       }
       
     } else if (plot_selection_type == 'by_plot'){
-      setup_sub_plots(nx, ny = length(current_plot_starts), plot_x_space, plot_y_space)
+      
+      
       for (col_ind in col_vec){
         current_plot_list = lapply(seq_along(plot_list), function(i) plot_list[[i]][, col_ind])
-        
-        if ((col_ind == 2) || (col_vec == 6)){
-          plot_type = 'non-overlay'
-        } else {
-          plot_type = 'overlay'
-        }
-        overlay_plot_list(plot_type, current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = col_names[col_ind], ylab = '', x_lab = '', 
-                          col_vec = plot_col, lty_vec = rep(plot_lty, length(plot_list)), lwd_vec = rep(plot_lwd, length(plot_list)), 
+#         if ((col_ind == 2) || (col_vec == 6)){
+#           plot_type = 'non-overlay'
+#         } else {
+#           plot_type = 'overlay'
+#         }
+        print(column_names[col_ind])
+        overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], ylab = '', x_lab = '', 
+                          col_vec = author_col, lty_vec = rep(plot_lty, length(plot_list)), lwd_vec = rep(plot_lwd, length(plot_list)), 
+                          legend_vec = 'NA', legend_loc = FALSE)
+        overlay_plot_list(plot_type = 'overlay', list(current_mean_list[, col_ind]), x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], ylab = '', x_lab = '', 
+                          col_vec = 'black', lty_vec = mean_plot_lty, lwd_vec = mean_plot_lwd, 
                           legend_vec = 'NA', legend_loc = FALSE)
       }
     }
