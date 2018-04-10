@@ -34,16 +34,16 @@ setup_sub_plots <- function(nx, ny, x_space, y_space){
 
 
 include_random_data = TRUE
-author_num = 6
-author_col = rainbow(n = author_num, start = 0, end = 1)
+author_num = 3
+author_col = rainbow(author_num)
 sheet_num = 2
-write_pdf = FALSE
+write_pdf = TRUE
 output_pdf_filename = '~/Documents/elicitations_test_1.pdf'
 worksheets_to_use = c(2, 3)
 plot_lwd = 1
 plot_lty = 1
 mean_plot_lwd = 2
-mean_plot_lty = 1
+mean_plot_lty = 2
 
 col_vec = c(2, 3, 4)
 time_vec = c(0, 20, 40, 60)
@@ -51,12 +51,12 @@ lty_vec = c(1, 1, 2)
 ylims = c(0, 10)
 nx = 3
 ny = 2
-plot_x_space = 2
-plot_y_space = 2
+plot_x_space = 5
+plot_y_space = 5
 plot_selection_type = 'by_plot'
 
 sheet_characteristics = gs_ls()
-author_sheets_to_use = grepl('CPW_elicitation', sheet_characteristics$sheet_title)
+author_sheets_to_use = grepl('CPW_test', sheet_characteristics$sheet_title)
 
 googlesheet_names = sheet_characteristics$sheet_title[author_sheets_to_use]
 
@@ -131,9 +131,11 @@ for (sheet_ind in 1:sheet_num){
         current_plot_list = lapply(col_vec, function(i) plot_list[[author_ind]][, i])
         
         current_plot_name = plot_names[[sheet_ind]][[author_ind]][current_plot_starts[plot_ind] - 2]
+        
         overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = current_plot_name, ylab = '', x_lab = '', 
                           col_vec = rep(author_col[author_ind], 3), lty_vec, lwd_vec = rep(plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
+        
         overlay_plot_list(plot_type = 'overlay', mean_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = current_plot_name, ylab = '', x_lab = '', 
                           col_vec = rep('black', 3), lty_vec, lwd_vec = rep(mean_plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
@@ -150,10 +152,16 @@ for (sheet_ind in 1:sheet_num){
 #           plot_type = 'overlay'
 #         }
         print(column_names[col_ind])
-        overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], ylab = '', x_lab = '', 
+        
+        if (col_ind == 2){
+          y_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
+        } else {
+          y_lab = ''
+        }
+        overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], y_lab, x_lab = '', 
                           col_vec = author_col, lty_vec = rep(plot_lty, length(plot_list)), lwd_vec = rep(plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
-        overlay_plot_list(plot_type = 'overlay', list(current_mean_list[, col_ind]), x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], ylab = '', x_lab = '', 
+        overlay_plot_list(plot_type = 'overlay', list(current_mean_list[, col_ind]), x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], y_lab, x_lab = '', 
                           col_vec = 'black', lty_vec = mean_plot_lty, lwd_vec = mean_plot_lwd, 
                           legend_vec = 'NA', legend_loc = FALSE)
       }
@@ -167,3 +175,7 @@ for (sheet_ind in 1:sheet_num){
 if (write_pdf == TRUE) {
   graphics.off()
 }                            
+
+
+
+
