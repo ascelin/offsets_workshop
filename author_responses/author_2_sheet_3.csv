@@ -1,11 +1,11 @@
-Tree Richness - Medium quality 2,,,,,,,,,,
+Tree Richness - Medium quality 1,,,,,,,,,,
 ,,,,,,,,,,
 Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Total Upper Bound,,,
 5,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Proivide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),6,,,
 ,,,,,,,,,,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,1,3,2,95,1,3,,,1,3
+0,2,5,3,95,2,5,,,2,5
 20,,,,,,,,,,
 40,,,,,,,,,,
 60,,,,,,,,,,
@@ -14,7 +14,7 @@ Comment (optional),,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,1,3,2,95,1,3,,,1,3
+0,2,5,3,95,2,5,,,2,5
 20,,,,,,,,,,
 40,,,,,,,,,,
 60,,,,,,,,,,
@@ -23,7 +23,7 @@ Comment (optional),,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,1,3,2,95,1,3,,,1,3
+0,2,5,3,95,2,5,,,2,5
 20,,,,,,,,,,
 40,,,,,,,,,,
 60,,,,,,,,,,

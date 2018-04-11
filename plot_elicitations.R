@@ -35,12 +35,12 @@ setup_sub_plots <- function(nx, ny, x_space, y_space){
 #gs_auth(new_user = TRUE)
 
 include_random_data = TRUE
-author_num = 3
-author_col = rainbow(author_num)
+author_num = 6
+author_col = c('red', 'darkgreen', 'pink', 'green', 'orange', 'blue')
 
 write_pdf = TRUE
 output_pdf_filename = '~/Documents/CPW_elicitation_1.pdf'
-worksheets_to_use = 2:7
+worksheets_to_use = 2:3
 
 sheet_num = length(worksheets_to_use)
 plot_lwd = 1
@@ -56,7 +56,7 @@ nx = 3
 ny = 2
 plot_x_space = 5
 plot_y_space = 5
-plot_selection_type = 'by_plot'
+plot_selection_type = 'by_author'
 
 sheet_characteristics = gs_ls()
 author_sheets_to_use = grepl('CPW_elicitation_isaac_edits', sheet_characteristics$sheet_title)
@@ -72,10 +72,10 @@ for (author_ind in seq(author_num)){
   current_sheet_characteristics = gs_title(current_sheet_name)
   current_worksheet_names = gs_ws_ls(current_sheet_characteristics)
   #for (current_sheet_ind in seq_along(worksheets_to_use)){
-  for (current_sheet_ind in seq_along(worksheets_to_use)){
+  for (current_sheet_ind in (worksheets_to_use)){
     current_filename = paste0('author_responses/author_', author_ind, '_sheet_', current_sheet_ind, '.csv')
     gs_download(from = current_sheet_characteristics, 
-                current_worksheet_names[worksheets_to_use[current_sheet_ind]], to = current_filename, overwrite = TRUE)
+                current_worksheet_names[current_sheet_ind], to = current_filename, overwrite = TRUE)
     Sys.sleep(6)
   }
 }
@@ -90,7 +90,7 @@ plot_names = numerical_data
 
 for (author_ind in seq(author_num)){
   for (current_sheet_ind in seq_along(worksheets_to_use)){
-    current_filename = paste0('author_responses/author_', author_ind, '_sheet_', current_sheet_ind, '.csv')
+    current_filename = paste0('author_responses/author_', author_ind, '_sheet_', worksheets_to_use[current_sheet_ind], '.csv')
     
     current_sheet_data = read.csv(current_filename, na.strings=c("","NA"), stringsAsFactors = FALSE)
     data_to_use = current_sheet_data[, 1:7]
@@ -161,6 +161,7 @@ for (sheet_ind in 1:sheet_num){
         
         if (col_ind == 2){
           y_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
+          y_lab = gsub("Management scenario:", "", y_lab)
         } else {
           y_lab = ''
         }
