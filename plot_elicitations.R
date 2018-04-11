@@ -32,13 +32,14 @@ setup_sub_plots <- function(nx, ny, x_space, y_space){
   
 }
 
+#gs_auth(new_user = TRUE)
 
 include_random_data = TRUE
 author_num = 3
 author_col = rainbow(author_num)
 
 write_pdf = TRUE
-output_pdf_filename = '~/Documents/elicitations_test_1.pdf'
+output_pdf_filename = '~/Documents/CPW_elicitation_1.pdf'
 worksheets_to_use = 2:7
 
 sheet_num = length(worksheets_to_use)
@@ -58,16 +59,16 @@ plot_y_space = 5
 plot_selection_type = 'by_plot'
 
 sheet_characteristics = gs_ls()
-author_sheets_to_use = grepl('CPW_test', sheet_characteristics$sheet_title)
+author_sheets_to_use = grepl('CPW_elicitation_isaac_edits', sheet_characteristics$sheet_title)
 
 googlesheet_names = sheet_characteristics$sheet_title[author_sheets_to_use]
 
 column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confidence 50-100 (%)',	
               '90% CI (LB)',	'90% CI (UB)')
 
-
 for (author_ind in seq(author_num)){
-  current_sheet_name = googlesheet_names[author_ind]
+  #current_sheet_name = googlesheet_names[author_ind]
+  current_sheet_name = googlesheet_names[1]
   current_sheet_characteristics = gs_title(current_sheet_name)
   current_worksheet_names = gs_ws_ls(current_sheet_characteristics)
   #for (current_sheet_ind in seq_along(worksheets_to_use)){
@@ -75,7 +76,7 @@ for (author_ind in seq(author_num)){
     current_filename = paste0('author_responses/author_', author_ind, '_sheet_', current_sheet_ind, '.csv')
     gs_download(from = current_sheet_characteristics, 
                 current_worksheet_names[worksheets_to_use[current_sheet_ind]], to = current_filename, overwrite = TRUE)
-    Sys.sleep(2)
+    Sys.sleep(6)
   }
 }
 
@@ -163,6 +164,7 @@ for (sheet_ind in 1:sheet_num){
         } else {
           y_lab = ''
         }
+        
         overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec, yticks = 'y', ylims, heading = column_names[col_ind], y_lab, x_lab = '', 
                           col_vec = author_col, lty_vec = rep(plot_lty, length(plot_list)), lwd_vec = rep(plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
