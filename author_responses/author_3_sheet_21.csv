@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,2,10,8,60,0,11,,,-1,11
+40,2,8,6,55,0,9,,,-1,9
+60,2,8,4,50,0,11,,,0,11
+Comment (optional),Increase impacts of Olive completely changing structure of community,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,20,50,35,65,14,55,,,14,56
+40,20,55,40,55,7,55,,,7,65
+60,20,60,40,50,4,55,,,4,76
+Comment (optional),"Progressive clearing of any structural issues allowing regrowth of cover, mostly occuring in first 20 years",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,30,65,50,65,22,55,,,22,71
+40,30,65,50,55,17,55,,,17,75
+60,30,65,50,50,14,55,,,14,77
+Comment (optional),Upper bound and best estimate assumes teh management also includes thining of native canopy to ensure coverage can progress. Lower bound provides less of that activity,,,,,,,,,

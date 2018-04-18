@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,4,12,9,90,4,12,,,4,12
+40,3.5,10,8,80,3,10,,,3,10
+60,3,9,7,70,2,10,,,2,10
+Comment (optional),Ongoing decline of native grass cover,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,10,25,15,90,10,25,,,10,25
+40,12,20,15,80,12,21,,,12,21
+60,10,20,13,70,9,22,,,9,22
+Comment (optional),"Stable or minor increase in grass cover which is most limited by dense eucs and olive, initial increase due to olive control, but shading by eucs later increases",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,20,50,40,90,20,50,,,20,50
+40,15,40,32,80,13,41,,,13,41
+60,12,35,25,70,8,38,,,8,38
+Comment (optional),"Increase in response to olive control and planting, but only partly sustainable as eucs increase",,,,,,,,,

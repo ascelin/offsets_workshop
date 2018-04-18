@@ -1,0 +1,12 @@
+"Please provide your estimates for benchmark cover Trees and grass/grass like for Cumberland Plain Woodland PTC 849 (Grey Box - Forest Red Gum grassy woodland on flats of the Cumberland Plain, Sydney Basin Bioregion)",,,,,,
+,,,,,,
+"Note: this is using ""cover"" to mean the summed cover of all species in the plant lifeform type",,,,,,
+,,,,,,
+,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB)
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated)
+,,,,,,
+,,,,,,
+Life form type,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),,
+Tree cover,10,60,30,70,,
+Grass and grass like,20,100,60,70,,
+Comment (optional),,,,,,

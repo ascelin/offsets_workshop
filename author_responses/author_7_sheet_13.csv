@@ -1,0 +1,12 @@
+Forb richness - High quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,12,25,15,95,12,24,,,12,24
+20,11,25,15,95,11,24,,,11,24
+40,11,25,15,95,11,24,,,11,24
+60,10,25,15,95,10,24,,,10,24
+Comment (optional),There is little observed decline in species diversity in high quality sites. Sites which have survived the previous 200 years of abuse to retain this level of diversity generally remain resilient. However some decline in forbs and herbs can occur through new pressures from adjoining land uses in certain instances,,,,,,,,,

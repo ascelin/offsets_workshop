@@ -1,0 +1,30 @@
+Forb richness - Medium quality 1 (Ground Cover),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,6,15,9,80,6,16,,,6,16
+40,2,12,8,65,0,14,,,0,14
+60,2,10,5,55,0,13,,,0,13
+Comment (optional),Trends to low quality state ,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,12,20,15,70,11,21,,,11,21
+40,12,20,16,60,10,22,,,10,22
+60,12,20,16,50,9,23,,,9,23
+Comment (optional),The site already has some diversity so any work will provide some rebound that should be easy to maintain with ongoing management. Vectors for new species is likely to reduce after development occurs so any new species likely to show up in first 20 years.,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,12,25,20,80,11,25,,,11,26
+40,12,25,20,70,10,25,,,10,26
+60,12,25,20,60,8,25,,,8,28
+Comment (optional),As for low intensity management but opportunity to add from available supplies,,,,,,,,,

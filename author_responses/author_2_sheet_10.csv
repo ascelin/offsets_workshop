@@ -1,0 +1,30 @@
+Forb richness - Low site quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,2,9,5,90,2,9,,,2,9
+40,2,8,4.5,80,2,8,,,2,8
+60,2,7,4,70,1,8,,,1,8
+Comment (optional),gradual attrition,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,4,13,7,,,,,,,
+40,4,13,7,,,,,,,
+60,4,13,7,,,,,,,
+Comment (optional),"marginal increase with grazing removal, but largey stable thereafter - legacy",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,12,20,15,90,12,20,,,12,20
+40,12,18,14,80,12,19,,,12,19
+60,11,16,13,70,10,17,,,10,17
+Comment (optional),"increase with planting but not sustainable as eucs increase, stochastic losses occur",,,,,,,,,

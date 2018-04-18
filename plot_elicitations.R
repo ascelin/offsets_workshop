@@ -32,17 +32,38 @@ setup_sub_plots <- function(nx, ny, x_space, y_space){
   
 }
 
-#gs_auth(new_user = TRUE)
+# gs_auth(new_user = TRUE)
 
-include_random_data = FALSE
-author_num = 2
-author_col = c('red', 'darkgreen', 'pink', 'green', 'orange', 'blue')
+author_num = 7
 
+author_col = c('darkblue',
+               'red',
+               'pink',
+               'lightblue',
+               'orange',
+               'green',
+               'darkgreen')
+
+c("Elicitation_CP_Workshop_cmorris",
+  "Elicitation_CP_Workshop_dkeith",
+  "Elicitation_CP_Workshop_dkirk" ,     
+  "Elicitation_CP_Workshop_gsteenbeeke",
+  "Elicitation_CP_Workshop_jsanders",
+  "Elicitation_CP_Workshop_pprice",     
+  "Elicitation_CP_Workshop_pridgeway")
+
+column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confidence 50-100 (%)',	
+                 '90% CI (LB)',	'90% CI (UB)', 'Uppermost Bound')
 write_pdf = TRUE
-output_pdf_filename = '~/Documents/CPW_elicitation_1.pdf'
-worksheets_to_use = c(2, 6)
+plot_selection_type = 'by_plot'
+plot_means = FALSE
+include_random_data = FALSE
+output_pdf_filename = '~/Documents/CP_elicitation_workshop_1.pdf'
+file_prefix = 'Elicitation_CP_Workshop_'
 
-sheet_num = length(worksheets_to_use)
+worksheets_to_pull = c(12)
+
+sheet_num = length(worksheets_to_pull)
 plot_lwd = 2
 plot_lty = 1
 mean_plot_lwd = 3
@@ -56,62 +77,75 @@ nx = 3
 ny = 2
 plot_x_space = 5
 plot_y_space = 5
-plot_selection_type = 'by_plot'
-plot_means = FALSE
 
-file_prefix = 'CPW_elicitation_master'
 sheet_characteristics = gs_ls()
 author_sheets_to_use = grepl(file_prefix, sheet_characteristics$sheet_title)
-
 googlesheet_names = sheet_characteristics$sheet_title[author_sheets_to_use]
-
-column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confidence 50-100 (%)',	
-              '90% CI (LB)',	'90% CI (UB)', 'Uppermost')
+googlesheet_names = sort(googlesheet_names)
 
 for (author_ind in seq(author_num)){
-  #current_sheet_name = googlesheet_names[author_ind]
-  current_sheet_name = googlesheet_names
+
+  current_sheet_name = googlesheet_names[author_ind]
   current_sheet_characteristics = gs_title(current_sheet_name)
   current_worksheet_names = gs_ws_ls(current_sheet_characteristics)
-  #for (current_sheet_ind in seq_along(worksheets_to_use)){
-  for (current_sheet_ind in (worksheets_to_use)){
+
+  for (current_sheet_ind in (worksheets_to_pull)){
     current_filename = paste0('author_responses/author_', author_ind, '_sheet_', current_sheet_ind, '.csv')
     gs_download(from = current_sheet_characteristics, 
                 current_worksheet_names[current_sheet_ind], to = current_filename, overwrite = TRUE)
     Sys.sleep(6)
   }
+  
 }
 
 
-numerical_data = vector('list', sheet_num)
-for (sheet_ind in seq(sheet_num)){
+
+worksheets_to_plot = 2:13
+
+plot_sheet_num = length(worksheets_to_plot)
+numerical_data = vector('list', plot_sheet_num)
+
+for (sheet_ind in seq_along(worksheets_to_plot)){
   numerical_data[[sheet_ind]] = vector('list', author_num)
 }
 
 plot_names = numerical_data
+author_comments = numerical_data
 
 for (author_ind in seq(author_num)){
-  for (current_sheet_ind in seq_along(worksheets_to_use)){
-    current_filename = paste0('author_responses/author_', author_ind, '_sheet_', worksheets_to_use[current_sheet_ind], '.csv')
+  for (current_sheet_ind in seq_along(worksheets_to_plot)){
+    current_filename = paste0('author_responses/author_', author_ind, '_sheet_', worksheets_to_plot[current_sheet_ind], '.csv')
     
     current_sheet_data = read.csv(current_filename, na.strings=c("","NA"), stringsAsFactors = FALSE)
     data_to_use = current_sheet_data[, 1:8]
     names(data_to_use) = column_names
     plot_names[[current_sheet_ind]][[author_ind]] = data_to_use[, 1]
+    author_comments[[current_sheet_ind]][[author_ind]] = data_to_use[, 2]
     current_data = data.matrix(data_to_use)
     
     # simulate randomness in answers
-    if (include_random_data == TRUE){
-      random_data = matrix(data = sample(3, size = nrow(current_data)*(ncol(current_data) - 1), replace = TRUE), nrow = nrow(current_data))
-      current_data[, 2:ncol(current_data)] = current_data[, 2:ncol(current_data)] + random_data
-    }
+#     if (include_random_data == TRUE){
+#       random_data = matrix(data = sample(3, size = nrow(current_data)*(ncol(current_data) - 1), replace = TRUE), nrow = nrow(current_data))
+#       current_data[, 2:ncol(current_data)] = current_data[, 2:ncol(current_data)] + random_data
+#     }
     numerical_data[[current_sheet_ind]][[author_ind]] = current_data
+    print(author_ind)
   }
+  
 }
 
 
+comment_indx = lapply(seq_along(plot_names), 
+                      function(i) lapply(seq_along(plot_names[[i]]), 
+                                         function(j) grep("Comment", plot_names[[i]][[j]] )))
 
-current_worksheet_names = current_worksheet_names[worksheets_to_use]
+comments = lapply(seq_along(author_comments), 
+                      function(i) lapply(seq_along(author_comments[[i]]), 
+                                         function(j) author_comments[[i]][[j]][ comment_indx[[i]][[j]] ] ))
+
+
+
+plot_worksheet_names = current_worksheet_names[worksheets_to_plot]
 
 numerical_data_matrix = lapply(seq_along(numerical_data), function(i) abind(numerical_data[[i]], along=3))
 
@@ -123,20 +157,33 @@ sheet_means = lapply(seq_along(numerical_data), function(i) aaply(laply(numerica
 
 plot_starts = lapply(seq_along(sheet_means), function(i) as.numeric(which(sheet_means[[i]][, 1] == 0)))
 
+plot_nums = lapply(seq_along(plot_starts), function(i) length(plot_starts[[i]]))
+
+worksheet_comments = lapply(seq_along(comments), 
+                            function(i) lapply(seq(plot_nums[[i]]), 
+                                               function(j) lapply(seq(author_num), 
+                                                                  function(k) comments[[i]][[k]][j])))
+    
+
+
 sheet_y_lims = lapply(seq_along(sheet_maxs), function(i) c(0, max(sheet_maxs[[i]][, 8], na.rm = TRUE)))
 
 if (write_pdf == TRUE){
-  pdf(output_pdf_filename, width = 11.7, height = 8.3)
+  pdf(output_pdf_filename, width = 8.3, height = 11.7)
 }
 
-for (sheet_ind in 1:sheet_num){
+fileConn <- file("~/Documents/output.txt", open = "w+")
+
+for (sheet_ind in 1:plot_sheet_num){
   current_plot_starts = plot_starts[[sheet_ind]]
   y_lims = sheet_y_lims[[sheet_ind]]
   if (plot_selection_type == 'by_plot'){
-    setup_sub_plots(nx, ny = length(current_plot_starts), plot_x_space, plot_y_space)
+    setup_sub_plots(nx = 3, ny = 3, plot_x_space, plot_y_space)
   }
   
   for (plot_ind in 1:length(current_plot_starts)){
+    
+    plot_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
     current_plot_vec = current_plot_starts[plot_ind]:(current_plot_starts[plot_ind] + 3)
     plot_list = lapply(seq_along(numerical_data[[sheet_ind]]), function(i) numerical_data[[sheet_ind]][[i]][current_plot_vec, ])
     current_mean_list = sheet_means[[sheet_ind]][current_plot_vec, ]
@@ -148,7 +195,7 @@ for (sheet_ind in 1:sheet_num){
                           col_vec = rep('black', 3), lty_vec, lwd_vec = rep(mean_plot_lwd, length(plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
       } else {
-        setup_sub_plots(nx, ny, x_space = plot_x_space, y_space = plot_y_space)
+        setup_sub_plots(nx = 3, ny = 2, x_space = plot_x_space, y_space = plot_y_space)
         for (author_ind in seq(author_num)){
           current_plot_list = lapply(column_vec, function(i) plot_list[[author_ind]][, i])
           
@@ -172,7 +219,7 @@ for (sheet_ind in 1:sheet_num){
         print(column_names[col_ind])
         
         if (col_ind == 2){
-          y_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
+          y_lab = plot_lab
           y_lab = gsub("Management scenario:", "", y_lab)
         } else {
           y_lab = ''
@@ -185,12 +232,20 @@ for (sheet_ind in 1:sheet_num){
                           col_vec = 'black', lty_vec = mean_plot_lty, lwd_vec = mean_plot_lwd, 
                           legend_vec = 'NA', legend_loc = FALSE)
       }
+      
     }
     
-    title(current_worksheet_names[sheet_ind], outer=TRUE)
+    title(plot_worksheet_names[sheet_ind], outer=TRUE)
+
+    #write(unlist(worksheet_comments[[sheet_ind]][plot_ind]), file="~/Documents/output.txt", append=TRUE)
+    cat(plot_lab, file = fileConn, sep = "\n")
+    cat(paste(author_col, rep(':', author_num), unlist(worksheet_comments[[sheet_ind]][plot_ind])), file = fileConn, sep = "\n")
+    cat('\n', file = fileConn, sep = "\n")
   } 
 }
 
+close(fileConn)
+  
 
 if (write_pdf == TRUE) {
   graphics.off()

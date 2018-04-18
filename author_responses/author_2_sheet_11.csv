@@ -1,0 +1,30 @@
+Forb richness - Medium quality 1 (Ground Cover),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,7,13,9.5,90,7,13,,,7,13
+40,6.5,11,8.5,80,6,11,,,6,11
+60,6,10,8,70,5,11,,,5,11
+Comment (optional),decay in response to increased grazing,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,8,15,11,90,8,15,,,8,15
+40,9,15,11.5,80,9,15,,,9,15
+60,9,16,12,70,8,17,,,8,17
+Comment (optional),maintains or slighty improves in respose to marginal reduction in grazing,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,12,20,13,90,12,20,,,12,20
+40,12,19,12,80,12,20,,,12,20
+60,11.5,18,12,70,11,20,,,11,20
+Comment (optional),"immediate increase due to transloc, slight attrition subsequently",,,,,,,,,

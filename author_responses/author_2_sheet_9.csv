@@ -1,0 +1,12 @@
+Grass & grass-like richness - High quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,20,12,95,8,20,,,8,20
+20,6,17,11,90,6,17,,,6,17
+40,5,15,10,80,4,16,,,4,16
+60,4,12,9,70,3,13,,,3,13
+Comment (optional),gradual decay in response to grazing & fert app,,,,,,,,,

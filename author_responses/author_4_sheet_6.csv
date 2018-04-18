@@ -6,25 +6,25 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
-20,2,6,3,90,2,6,,,2,6
-40,2,5,2.5,80,2,5,,,2,5
-60,1.5,4.5,2,70,1,5,,,1,5
-Comment (optional),gradual decay,,,,,,,,,
+20,2,6,3,70,2,7,,,2,7
+40,2,5,3,60,2,6,,,2,6
+60,2,5,3,50,1,7,,,1,7
+Comment (optional),ongoing mgt is likely to retain current taxa (tolerant species / unpalatable species). History of site much longer than 60 years given here.,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
-20,4,10,6,90,4,10,,,4,10
-40,4,11,6,80,4,12,,,4,12
-60,4,12,7,70,3,13,,,3,13
-Comment (optional),kick up after olive control but slow colonisation withut active translocation,,,,,,,,,
+20,2,7,4,80,2,7,,,2,7
+40,3,8,5,70,2,9,,,2,9
+60,4,9,6,60,3,11,,,3,11
+Comment (optional),likely to have grasses disperse around a site so plots will gain species slowly,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
-20,8,15,12,90,8,15,,,8,15
-40,8,12,10,80,8,12,,,8,12
-60,7,11,10,70,6,11,,,6,11
-Comment (optional),"assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining",,,,,,,,,
+20,5,12,9,80,5,12,,,5,12
+40,5,12,8,70,4,13,,,4,13
+60,5,12,9,60,3,14,,,3,14
+Comment (optional),"decrese happens as canopy mgt (planting, maturing) leads to a change in GG species composition which then increases again as canopy matures. Initial burst of persistent species from change in conditions (mix of open and canopy shading)",,,,,,,,,

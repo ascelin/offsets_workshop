@@ -1,0 +1,12 @@
+Grass & grass-like richness - High quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,20,12,95,8,20,,,8,20
+20,7,20,12,95,7,20,,,7,20
+40,7,20,12,95,7,20,,,7,20
+60,6,20,12,95,6,20,,,6,20
+Comment (optional),There is little observed decline in species diversity in high quality sites. Sites which have survived the previous 200 years of abuse to retain this level of diversity generally remain resilient. However some decline in forbs and herbs can occur through new pressures from adjoining land uses in certain instances,,,,,,,,,

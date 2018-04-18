@@ -1,0 +1,30 @@
+Tree cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,1,10,5,65,0,12,,,-1,12
+40,2,15,5,55,0,21,,,0,21
+60,2,20,5,50,0,32,,,0,32
+Comment (optional),As for TG Low,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,2,10,5,65,1,12,,,1,12
+40,5,20,8,55,3,28,,,3,28
+60,10,40,10,50,10,64,,,10,64
+Comment (optional),As for TG Low,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,10,20,18,65,7,21,,,7,21
+40,15,40,35,55,2,43,,,2,43
+60,20,60,50,50,0,65,,,-4,68
+Comment (optional),As for TG Low,,,,,,,,,

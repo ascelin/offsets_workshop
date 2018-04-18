@@ -1,0 +1,30 @@
+Tree Richness - Medium quality 2 (Canopy),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+5,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),6,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,1,4,3,95,1,4,,,1,4
+20,1,4,3,90,1,4,,,1,4
+40,0,4,2,85,0,4,,,0,4
+60,0,3,2,80,0,3,,,0,3
+Comment (optional),"Dense weed cover limits natural (unassisted) recruitment, likely that trees which die willl not be replaced, esppecially as fire is unlikely to open structure for recruits = gradual decline",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,1,4,3,95,1,4,,,1,4
+20,1,4,3,90,1,4,,,1,4
+40,0,4,2,85,0,4,,,0,4
+60,0,3,2,75,0,3,,,0,3
+Comment (optional),"Dense weed cover limits natural (unassisted) recruitment (as per no management) and it is unlikely that low intensity management will actually improve this - however, it is possible that low intensity management may lead to slight improvement which is reflected in the lower confidence over time about the gradual decline",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,1,4,3,95,1,4,,,1,4
+20,3,6,4,90,3,6,,,3,6
+40,4,6,5,85,4,6,,,4,6
+60,3,6,4,80,3,6,,,3,6
+Comment (optional),"Intervention to remove weeds (olive) and add more fire imrproves recruitment, but diverse planting not required due to exiisting canopy - giving pulse of (e.g.) Acacia recruitment which is likely to gradually settle out over time",,,,,,,,,

@@ -1,0 +1,30 @@
+Tree cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),80,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,5,60,35,80,1,63,,,1,63
+40,0,50,30,70,0,56,,,-9,56
+60,0,45,25,60,0,55,,,-13,55
+Comment (optional),Lower quality of groundcovers mean little canopy replacement for this category; regional dieback is also exacerbated in association with woody weeds,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,10,70,45,80,6,73,,,6,73
+40,10,70,55,70,0,74,,,-3,74
+60,10,70,65,60,0,73,,,-18,73
+Comment (optional),Have observed strong short-term recovery of canopy in this circumstance once woody weeds treated; anticipate recruitment to influence 40-60 year timeframes in similar positive manner,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,10,70,45,80,6,73,,,6,73
+40,10,70,55,70,0,74,,,-3,74
+60,10,70,65,60,0,73,,,-18,73
+Comment (optional),No additional gains by assisted revegetation (it is possible to achieve higher tree densities however these represent a DECLINE in biodiversity value and not factored here),,,,,,,,,

@@ -1,30 +1,30 @@
-Grass & grass-like richness - Low site quality,,,,,,,,,,
+Grass & grass-like richness - Medium quality 2 (Canopy),,,,,,,,,,
 ,,,,,,,,,,
 Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
 12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
 ,,,,,,,,,,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,2,6,3,90,2,6,,,2,6
-40,2,5,2.5,80,2,5,,,2,5
-60,1.5,4.5,2,70,1,5,,,1,5
-Comment (optional),gradual decay,,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,3,8,4,70,3,9,,,3,9
+40,2,7,3,60,2,9,,,2,9
+60,2,5,3,50,1,7,,,1,7
+Comment (optional),Likely to keep losing species under a dense olive canopy as diversity changes from graminoid form towards broadleaf forms of plants that are more shade tolerant,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,4,10,6,90,4,10,,,4,10
-40,4,11,6,80,4,12,,,4,12
-60,4,12,7,70,3,13,,,3,13
-Comment (optional),kick up after olive control but slow colonisation withut active translocation,,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,4,12,6,80,4,13,,,4,13
+40,5,15,8,70,4,17,,,4,17
+60,8,15,10,60,7,18,,,7,18
+Comment (optional),"Removal of olives tends to result in an immediate diversity response (increased light, germination from soil seedbank) and then more taxa immigrate from refugia nearby over time",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,8,15,12,90,8,15,,,8,15
-40,8,12,10,80,8,12,,,8,12
-60,7,11,10,70,6,11,,,6,11
-Comment (optional),"assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining",,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,10,20,10,80,10,20,,,10,21
+40,10,20,12,70,9,20,,,9,22
+60,8,20,15,60,5,20,,,5,23
+Comment (optional),Likely to have a diverse planting initially and then later immigration of other taxa from refugia,,,,,,,,,

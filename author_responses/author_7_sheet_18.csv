@@ -1,0 +1,12 @@
+Tree cover - High,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated)    ,80,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,35,70,52,100,37,68,,,37,68
+20,35,70,52,95,36,69,,,36,69
+40,35,70,52,95,36,69,,,36,69
+60,35,70,52,95,36,69,,,36,69
+Comment (optional),General canopy decline in region (e.g. grey box psyllid) does not generally impact high quality sites; any such losses are overtaken by recruitment. Problem for many sites is overrecruitment of trees,,,,,,,,,

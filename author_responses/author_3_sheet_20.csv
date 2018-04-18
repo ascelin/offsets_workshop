@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,10,60,35,65,0,55,,,0,70
+40,5,50,35,55,0,55,,,-14,60
+60,5,50,35,50,0,55,,,-19,62
+Comment (optional),Likely incursions of structiural changing weeds in lower bound - olive,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,20,65,40,70,14,55,,,14,72
+40,25,65,40,60,18,55,,,18,78
+60,25,65,40,55,15,55,,,15,81
+Comment (optional),Low intensity removes those structural issues so change is at lower bound only. Assumes upper bound didn't have the structural issues and the low management has kept them at bay,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,35,65,50,65,29,55,,,29,71
+40,40,65,50,55,34,55,,,34,75
+60,40,65,50,50,32,55,,,32,77
+Comment (optional),As for low intensity but more ability to remove other competing exotic groundcovers,,,,,,,,,

@@ -1,30 +1,30 @@
-Grass & grass-like richness - Low site quality,,,,,,,,,,
+Grass & grass-like richness - Medium quality 2 (Canopy),,,,,,,,,,
 ,,,,,,,,,,
 Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
 12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
 ,,,,,,,,,,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,2,6,3,90,2,6,,,2,6
-40,2,5,2.5,80,2,5,,,2,5
-60,1.5,4.5,2,70,1,5,,,1,5
-Comment (optional),gradual decay,,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,3,8,4,95,3,8,,,3,8
+40,3,8,4,95,3,8,,,3,8
+60,3,8,4,95,3,8,,,3,8
+Comment (optional),Typically a stable state of decline - the low number of species which are present are by nature those which can persist under these conditions,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,4,10,6,90,4,10,,,4,10
-40,4,11,6,80,4,12,,,4,12
-60,4,12,7,70,3,13,,,3,13
-Comment (optional),kick up after olive control but slow colonisation withut active translocation,,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,4,20,9,95,4,19,,,4,19
+40,4,20,9,95,4,19,,,4,19
+60,4,20,9,95,4,19,,,4,19
+Comment (optional),Generally this condition state has at least some suppressed species (bud and seed bank) which emerge to measurable levels when suppressing canopy is removed,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,2,6,3,95,2,6,,,2,6
-20,8,15,12,90,8,15,,,8,15
-40,8,12,10,80,8,12,,,8,12
-60,7,11,10,70,6,11,,,6,11
-Comment (optional),"assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining",,,,,,,,,
+0,3,8,4,95,3,8,,,3,8
+20,10,20,15,95,10,20,,,10,20
+40,2,6,3,95,2,6,,,2,6
+60,2,6,3,95,2,6,,,2,6
+Comment (optional),Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time,,,,,,,,,

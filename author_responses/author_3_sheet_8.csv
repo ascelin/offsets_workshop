@@ -1,0 +1,30 @@
+Grass & grass-like richness - Medium quality 2 (Canopy),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),30,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,3,8,4,65,3,10,,,3,10
+40,3,8,4,65,3,10,,,3,10
+60,3,7,4,65,3,8,,,3,8
+Comment (optional),,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,6,12,8,65,5,14,,,5,14
+40,8,16,9,65,8,19,,,8,19
+60,9,20,11,65,8,23,,,8,23
+Comment (optional),Progressive removal of structure changing threats with continued management assumes that site has resilience and threat has largely been structural changing weeds,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,10,25,15,75,9,27,,,9,27
+40,10,25,15,70,9,28,,,9,28
+60,10,20,15,65,8,22,,,8,22
+Comment (optional),As for low intensity management with additional species dispersed through management activities,,,,,,,,,

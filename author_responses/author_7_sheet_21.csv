@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),80,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,5,15,10,80,4,16,,,4,16
+40,5,15,10,80,4,16,,,4,16
+60,5,15,10,80,4,16,,,4,16
+Comment (optional),"The groundcover that can survive this state generally continues to do so, but some loss possible through landclearing etc",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,15,30,20,80,14,31,,,14,31
+40,20,60,35,80,18,63,,,18,63
+60,30,70,40,80,29,74,,,29,74
+Comment (optional),Generally this condition state has at least some suppressed species (bud and seed bank). These strongly recover in cover (but only moderately in diversity) when suppressing canopy is removed,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,15,40,25,80,14,42,,,14,42
+40,20,70,40,80,18,74,,,18,74
+60,30,70,50,80,28,73,,,28,73
+Comment (optional),"Intensive management generally does little to improve recovery of this condition, although heavy seeding shortly after clearing woody weeds can significantly improve results",,,,,,,,,

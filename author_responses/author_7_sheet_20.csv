@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),80,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,64,,,16,64
+20,20,70,38,90,20,70,,,20,70
+40,25,70,38,90,25,70,,,25,70
+60,30,70,36,90,30,70,,,30,70
+Comment (optional),"Site management is fairly consistent - what has survived generally continues to do so. There is a risk of declines and this is observed with a minority of sites, typically through unauthorised or inappropriate land use changes. A significant number of sites also improve through benign neglect as transition from production grazing to hobby farm use",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,64,,,16,64
+20,25,70,55,90,25,70,,,25,70
+40,30,70,70,90,30,70,,,30,70
+60,30,70,70,90,30,70,,,30,70
+Comment (optional),"We generally find a strong increase of groundcover in this scenario, however this is not the case with all sites (hence the lower bound)",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,64,,,16,64
+20,30,70,65,90,30,70,,,30,70
+40,25,65,40,90,25,65,,,25,65
+60,25,75,40,90,25,75,,,25,75
+Comment (optional),"There is no additional gain in the long term by more intensive management where a core base of native groundcovers is already present; this is more resilient than scalping and revegetating, so more expensive techniques deliver less result here (despite initial peak)",,,,,,,,,

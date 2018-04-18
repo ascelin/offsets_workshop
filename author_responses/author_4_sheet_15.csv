@@ -1,0 +1,30 @@
+Tree cover - Low site quality,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,0,5,2,70,0,6,,,-1,6
+40,0,5,2,60,0,7,,,-1,7
+60,0,5,2,50,0,7,,,-2,7
+Comment (optional),Overall the amount of tree cover is unlikely to change but it may become generally younger,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,0,5,4,70,0,5,,,-1,5
+40,0,6,6,60,0,6,,,-3,6
+60,1,10,8,50,0,12,,,-5,12
+Comment (optional),Canopy cover returns quickly under appropriate fire regime and grazing mgt,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,2,50,40,80,0,51,,,-3,51
+40,5,60,50,70,0,63,,,-8,63
+60,10,70,50,60,0,65,,,-10,80
+Comment (optional),"Canopy cover can be restored relatively quickly at low cost, although the stems will tend to be poor habitat. The likelihood of exceeding these values is also high",,,,,,,,,

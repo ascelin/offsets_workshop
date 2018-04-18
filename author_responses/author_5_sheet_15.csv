@@ -1,0 +1,30 @@
+Tree cover - Low site quality,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,0,20,10,70,0,23,,,-3,23
+40,0,40,20,65,0,48,,,-8,48
+60,5,45,20,60,0,58,,,-3,58
+Comment (optional),"Private managmment highly variable, but  likely that some recruitmen of trees may occur over 60 years, unless very active exclusion is happening",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,25,75,35,90,25,65,,,25,75
+40,30,75,40,80,29,65,,,29,79
+60,30,70,45,75,27,65,,,27,75
+Comment (optional),"Some management (removal of impacts, adding fire) will increase tree recruitment, sometimess in a major pulse which will takes decades to thin withhoiiut active management",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,55,85,65,85,54,65,,,54,86
+40,60,80,70,80,59,65,,,59,81
+60,65,75,70,75,64,65,,,64,76
+Comment (optional),,,,,,,,,,

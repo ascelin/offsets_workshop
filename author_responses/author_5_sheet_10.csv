@@ -1,0 +1,30 @@
+Forb richness - Low site quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,2,9,5,90,2,9,,,2,9
+40,1,8,5,85,1,8,,,1,8
+60,1,7,4,80,1,7,,,1,7
+Comment (optional),"I would expect a small decline, but these species are already quite resilient, so the decline will be small.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,3,14,7,90,3,14,,,3,14
+40,5,15,9,85,5,15,,,5,15
+60,6,16,12,80,5,17,,,5,17
+Comment (optional),"Some management will improve forb diversity, but likely to be limited in some sites by available propagules",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,6,26,12,90,6,25,,,6,26
+40,8,26,14,85,8,25,,,8,27
+60,12,26,16,80,12,25,,,12,27
+Comment (optional),"Active management will greatly increase forb diversity, perhaps above 'natural' levels",,,,,,,,,

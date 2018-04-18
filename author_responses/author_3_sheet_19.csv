@@ -1,0 +1,30 @@
+Grass & grass-like cover - Low site quality,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,4,15,8,65,2,18,,,2,18
+40,3,15,6,60,2,20,,,2,20
+60,2,15,5,50,0,23,,,0,23
+Comment (optional),"Spread of structural changing species, manily olive, causing removal of any groundcover growth",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,5,15,10,70,4,16,,,4,16
+40,5,20,12,60,2,24,,,2,24
+60,5,25,15,55,0,31,,,-1,31
+Comment (optional),Progressive removal of competing exotic groundcovers ,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,10,40,25,80,8,42,,,8,42
+40,15,50,45,75,9,51,,,9,51
+60,15,65,60,75,6,55,,,6,66
+Comment (optional),Allows for complete removal of exotic groundcovers in a best case scenario - and given ongoing high intensity over 60 years then similar result in best estimate,,,,,,,,,

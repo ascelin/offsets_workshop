@@ -1,0 +1,30 @@
+Forb richness - Medium quality 1 (Ground Cover),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,6,12,8,95,6,12,,,6,12
+40,6,12,8,80,6,13,,,6,13
+60,5,12,7,70,4,13,,,4,13
+Comment (optional),20-yr observation (315 properties) is of some decline but limited (excluding development),,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,7,12,9,95,7,12,,,7,12
+40,7,12,9,95,7,12,,,7,12
+60,7,12,9,95,7,12,,,7,12
+Comment (optional),"While regeneration can increase native cover, species diversity does not significantly increase. Both observation & published data confirm this",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,10,20,15,95,10,20,,,10,20
+40,2,6,3,95,2,6,,,2,6
+60,2,6,3,95,2,6,,,2,6
+Comment (optional),Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time,,,,,,,,,

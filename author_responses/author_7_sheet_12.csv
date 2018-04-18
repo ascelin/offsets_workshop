@@ -1,0 +1,30 @@
+Forb richness - Medium quality 2 (Canopy),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,95,3,9,,,3,9
+20,3,8,4,95,3,8,,,3,8
+40,3,8,4,95,3,8,,,3,8
+60,3,8,4,95,3,8,,,3,8
+Comment (optional),Typically a stable state of decline - the low number of species which are present are by nature those which can persist under these conditions,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,95,3,9,,,3,9
+20,4,20,9,95,4,19,,,4,19
+40,4,20,9,95,4,19,,,4,19
+60,4,20,9,95,4,19,,,4,19
+Comment (optional),Generally this condition state has at least some suppressed species (bud and seed bank) which emerge to measurable levels when suppressing canopy is removed,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,100,3,9,,,3,9
+20,10,20,15,95,10,20,,,10,20
+40,2,6,3,95,2,6,,,2,6
+60,2,6,3,95,2,6,,,2,6
+Comment (optional),Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time,,,,,,,,,
