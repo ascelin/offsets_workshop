@@ -61,7 +61,7 @@ include_random_data = FALSE
 output_pdf_filename = '~/Documents/CP_elicitation_workshop_1.pdf'
 file_prefix = 'Elicitation_CP_Workshop_'
 
-worksheets_to_pull = c(12)
+worksheets_to_pull = c(15:22)
 
 sheet_num = length(worksheets_to_pull)
 plot_lwd = 2
@@ -69,22 +69,22 @@ plot_lty = 1
 mean_plot_lwd = 3
 mean_plot_lty = 2
 
-column_vec = c(2, 3, 4)
+cols_to_plot = c(2, 3, 4)
 time_vec = c(0, 20, 40, 60)
 lty_vec = c(1, 1, 2)
 
 nx = 3
 ny = 2
-plot_x_space = 5
-plot_y_space = 5
+plot_x_space = 2
+plot_y_space = 1.5
 
 sheet_characteristics = gs_ls()
 author_sheets_to_use = grepl(file_prefix, sheet_characteristics$sheet_title)
 googlesheet_names = sheet_characteristics$sheet_title[author_sheets_to_use]
 googlesheet_names = sort(googlesheet_names)
 
-for (author_ind in seq(author_num)){
-
+# for (author_ind in seq(author_num)){
+for (author_ind in 4){
   current_sheet_name = googlesheet_names[author_ind]
   current_sheet_characteristics = gs_title(current_sheet_name)
   current_worksheet_names = gs_ws_ls(current_sheet_characteristics)
@@ -100,60 +100,46 @@ for (author_ind in seq(author_num)){
 
 
 
-worksheets_to_plot = 2:13
+worksheets_to_collate = c(2:13, 15:22)
 
-plot_sheet_num = length(worksheets_to_plot)
-numerical_data = vector('list', plot_sheet_num)
+plot_sheet_num = length(worksheets_to_collate)
+sheet_data = vector('list', plot_sheet_num)
 
-for (sheet_ind in seq_along(worksheets_to_plot)){
-  numerical_data[[sheet_ind]] = vector('list', author_num)
-}
+for (current_sheet_ind in seq_along(worksheets_to_collate)){
+  current_sheet_data = vector('list', author_num)
+  for (author_ind in seq(author_num)){
 
-plot_names = numerical_data
-author_comments = numerical_data
-
-for (author_ind in seq(author_num)){
-  for (current_sheet_ind in seq_along(worksheets_to_plot)){
     current_filename = paste0('author_responses/author_', author_ind, '_sheet_', worksheets_to_plot[current_sheet_ind], '.csv')
     
-    current_sheet_data = read.csv(current_filename, na.strings=c("","NA"), stringsAsFactors = FALSE)
-    data_to_use = current_sheet_data[, 1:8]
-    names(data_to_use) = column_names
-    plot_names[[current_sheet_ind]][[author_ind]] = data_to_use[, 1]
-    author_comments[[current_sheet_ind]][[author_ind]] = data_to_use[, 2]
-    current_data = data.matrix(data_to_use)
-    
-    # simulate randomness in answers
-#     if (include_random_data == TRUE){
-#       random_data = matrix(data = sample(3, size = nrow(current_data)*(ncol(current_data) - 1), replace = TRUE), nrow = nrow(current_data))
-#       current_data[, 2:ncol(current_data)] = current_data[, 2:ncol(current_data)] + random_data
-#     }
-    numerical_data[[current_sheet_ind]][[author_ind]] = current_data
-    print(author_ind)
+    tmp_data = read.csv(current_filename, na.strings=c("","NA"), stringsAsFactors = FALSE)
+    tmp_data = tmp_data[, 1:8]
+    names(tmp_data) = column_names
+    current_sheet_data[[author_ind]] = tmp_data
   }
-  
+  sheet_data[[current_sheet_ind]] = current_sheet_data
 }
 
 
-comment_indx = lapply(seq_along(plot_names), 
-                      function(i) lapply(seq_along(plot_names[[i]]), 
-                                         function(j) grep("Comment", plot_names[[i]][[j]] )))
+comment_indx = lapply(seq_along(sheet_data), 
+                      function(i) grep("Comment", sheet_data[[i]][[1]][, 1]))
 
-comments = lapply(seq_along(author_comments), 
-                      function(i) lapply(seq_along(author_comments[[i]]), 
-                                         function(j) author_comments[[i]][[j]][ comment_indx[[i]][[j]] ] ))
 
+comments = lapply(seq_along(sheet_data), 
+                      function(i) lapply(seq_along(sheet_data[[i]]), function(j) sheet_data[[i]][[j]][comment_indx[[i]], 2]))
 
 
 plot_worksheet_names = current_worksheet_names[worksheets_to_plot]
 
-numerical_data_matrix = lapply(seq_along(numerical_data), function(i) abind(numerical_data[[i]], along=3))
+numerical_data_matrix = lapply(seq_along(sheet_data), function(i) lapply(seq_along(sheet_data[[i]]),
+                                                                         function(j) data.matrix(sheet_data[[i]][[j]])))
+                                                                         
+numerical_data_matrix = lapply(seq_along(numerical_data_matrix), function(i) abind(numerical_data_matrix[[i]], along=3))
 
 #sheet_means = lapply(seq_along(numerical_data), function(i) Reduce('+', numerical_data[[i]])/author_num)
 
-sheet_mins = lapply(seq_along(numerical_data), function(i) aaply(laply(numerical_data[[i]], as.matrix), c(2, 3), min, na.omit = TRUE))
-sheet_maxs = lapply(seq_along(numerical_data), function(i) aaply(laply(numerical_data[[i]], as.matrix), c(2, 3), max, na.omit = TRUE))
-sheet_means = lapply(seq_along(numerical_data), function(i) aaply(laply(numerical_data[[i]], as.matrix), c(2, 3), mean, na.omit = TRUE))
+sheet_mins = lapply(seq_along(numerical_data_matrix), function(i) apply(numerical_data_matrix[[i]], c(1, 2), min, na.rm = TRUE))
+sheet_maxs = lapply(seq_along(numerical_data_matrix), function(i) apply(numerical_data_matrix[[i]], c(1, 2), max, na.rm = TRUE))
+sheet_means = lapply(seq_along(numerical_data_matrix), function(i) apply(numerical_data_matrix[[i]], c(1, 2), mean, na.rm = TRUE))
 
 plot_starts = lapply(seq_along(sheet_means), function(i) as.numeric(which(sheet_means[[i]][, 1] == 0)))
 
@@ -164,17 +150,20 @@ worksheet_comments = lapply(seq_along(comments),
                                                function(j) lapply(seq(author_num), 
                                                                   function(k) comments[[i]][[k]][j])))
     
+sheet_y_lims = lapply(seq_along(sheet_maxs), function(i) c(0, max(sheet_maxs[[i]][, 3], na.rm = TRUE)))
 
-
-sheet_y_lims = lapply(seq_along(sheet_maxs), function(i) c(0, max(sheet_maxs[[i]][, 8], na.rm = TRUE)))
-
-if (write_pdf == TRUE){
-  pdf(output_pdf_filename, width = 8.3, height = 11.7)
-}
 
 fileConn <- file("~/Documents/output.txt", open = "w+")
 
 for (sheet_ind in 1:plot_sheet_num){
+  
+  cat(plot_worksheet_names[sheet_ind], file = fileConn, sep = "\n")
+  
+  if (write_pdf == TRUE){
+    pdf(paste0('~/Documents/', plot_worksheet_names[sheet_ind], '.pdf'), width = 8.3, height = 11.7)
+  }
+  
+  
   current_plot_starts = plot_starts[[sheet_ind]]
   y_lims = sheet_y_lims[[sheet_ind]]
   if (plot_selection_type == 'by_plot'){
@@ -184,11 +173,13 @@ for (sheet_ind in 1:plot_sheet_num){
   for (plot_ind in 1:length(current_plot_starts)){
     
     plot_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
-    current_plot_vec = current_plot_starts[plot_ind]:(current_plot_starts[plot_ind] + 3)
-    plot_list = lapply(seq_along(numerical_data[[sheet_ind]]), function(i) numerical_data[[sheet_ind]][[i]][current_plot_vec, ])
-    current_mean_list = sheet_means[[sheet_ind]][current_plot_vec, ]
+    rows_to_plot = current_plot_starts[plot_ind]:(current_plot_starts[plot_ind] + 3)
+    
+    plot_list = lapply(seq(author_num), function(i) numerical_data_matrix[[sheet_ind]][rows_to_plot, , i])
+    current_mean_list = sheet_means[[sheet_ind]][rows_to_plot, ]
+    
     if (plot_selection_type == 'by_author'){
-      mean_plot_list = lapply(column_vec, function(i) current_mean_list[, i])
+      mean_plot_list = lapply(cols_to_plot, function(i) current_mean_list[, i])
       if ('plot_means' == TRUE){
         setup_sub_plots(nx = 1, ny = 1, x_space = plot_x_space, y_space = plot_y_space)
         overlay_plot_list(plot_type = 'non-overlay', mean_plot_list, x_vec = time_vec, yticks = 'y', y_lims, heading = 'mean profiles', ylab = '', x_lab = '', 
@@ -197,7 +188,7 @@ for (sheet_ind in 1:plot_sheet_num){
       } else {
         setup_sub_plots(nx = 3, ny = 2, x_space = plot_x_space, y_space = plot_y_space)
         for (author_ind in seq(author_num)){
-          current_plot_list = lapply(column_vec, function(i) plot_list[[author_ind]][, i])
+          current_plot_list = lapply(cols_to_plot, function(i) plot_list[[author_ind]][, i])
           
           current_plot_name = plot_names[[sheet_ind]][[author_ind]][current_plot_starts[plot_ind] - 2]
           current_plot_name = gsub("Management scenario:", "", current_plot_name)
@@ -214,7 +205,7 @@ for (sheet_ind in 1:plot_sheet_num){
       
     } else if (plot_selection_type == 'by_plot'){
       
-      for (col_ind in column_vec){
+      for (col_ind in cols_to_plot){
         current_plot_list = lapply(seq_along(plot_list), function(i) plot_list[[i]][, col_ind])
         print(column_names[col_ind])
         
@@ -235,21 +226,21 @@ for (sheet_ind in 1:plot_sheet_num){
       
     }
     
-    title(plot_worksheet_names[sheet_ind], outer=TRUE)
-
-    #write(unlist(worksheet_comments[[sheet_ind]][plot_ind]), file="~/Documents/output.txt", append=TRUE)
+    
     cat(plot_lab, file = fileConn, sep = "\n")
     cat(paste(author_col, rep(':', author_num), unlist(worksheet_comments[[sheet_ind]][plot_ind])), file = fileConn, sep = "\n")
     cat('\n', file = fileConn, sep = "\n")
   } 
+  title(plot_worksheet_names[sheet_ind], outer=TRUE)
+  if (write_pdf == TRUE) {
+    graphics.off()
+  }  
 }
 
 close(fileConn)
   
 
-if (write_pdf == TRUE) {
-  graphics.off()
-}                            
+                          
 
 
 
