@@ -376,7 +376,7 @@ spline_fits = fit_splines(numerical_data_matrix,
             column_to_use)
                           
 plot_splines(spline_fits, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts, plot_names = list(), 
-             fit_type, author_num, sheet_means, time_vec, time_vec_new, sheet_y_lims, worksheet_names)
+             fit_type, author_num, sheet_means, time_vec, time_vec_new, sheet_y_lims, worksheet_names_to_use)
 
 
 
