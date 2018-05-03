@@ -6,25 +6,25 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,5,20,10,85,5,21,,,5,21
+40,5,20,10,75,4,22,,,4,22
+60,5,20,10,60,3,25,,,3,25
+Comment (optional),"Some native Grasses likely to remain in low cover despite unsympathetic management, but there is also a chance that they may stage a partial recovery , (e.g.) if a couple of fires occur a few years apart.",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,10,30,15,95,10,29,,,10,29
+40,10,35,20,90,10,35,,,10,35
+60,10,40,20,85,9,41,,,9,41
+Comment (optional),"Introduction of fire and some weed management is likely tro boost native grass cover, at least for 2-4 years following the fires (upper estimate), but the effect will be transitory without regular and/or significant weed control action (lower estimate)",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,25,50,35,90,25,50,,,25,50
+40,30,60,45,85,29,55,,,29,61
+60,35,65,55,80,33,55,,,33,66
+Comment (optional),"Regular biurning accompanied by significant weed control effort is likely to lead to a significannt and sustained improvement in native grass cover, which will be sustained over time if management is sustained at maintenance levels",,,,,,,,,

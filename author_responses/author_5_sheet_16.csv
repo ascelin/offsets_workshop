@@ -8,23 +8,23 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,0,5,3,95,0,5,,,0,5
 20,2,20,5,90,2,20,,,2,20
 40,5,25,5,85,5,26,,,5,26
-60,5,25,10,,,,,,,
-Comment (optional),,,,,,,,,,
+60,5,25,10,80,4,27,,,4,27
+Comment (optional),"Native tree species are generally resilient, but likely to be limited by ongoing grazing, competition from exotic ground cover and lack of burning",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,10,50,30,90,10,50,,,10,50
+40,25,70,50,85,24,65,,,24,71
+60,40,85,65,80,37,65,,,37,88
+Comment (optional),"Exclusion of grazing, burning and weed management will greatly improve tree recruitment, but it may be limited by low initial cover limiting numbers and distribution of propagules- however general experience across western Sydney has shown that vigorous recruitment of trees often occurs (e.g. ADI)",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,50,80,60,90,50,65,,,50,80
+40,55,85,65,85,54,65,,,54,86
+60,65,80,70,80,64,65,,,64,81
+Comment (optional),"High-intensity management is likely to involve major plantings to increase tree cover, possibly leading to an overabundance of tree-cover in the short-to-medium term, but likely to lead to a more balanced outcome in the long-term",,,,,,,,,

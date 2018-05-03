@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,55,85,65,85,54,65,,,54,86
 40,60,80,70,80,59,65,,,59,81
 60,65,75,70,75,64,65,,,64,76
-Comment (optional),,,,,,,,,,
+Comment (optional),Optimal management should result in stable tree cover ,,,,,,,,,

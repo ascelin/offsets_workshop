@@ -1,0 +1,520 @@
+1. TG-Low
+NA
+darkblue : NA
+red : probability of some opportunist (acacia) recruitment, also some dieback of existing loners
+pink : Typical activities change from current to more urban residential influence but these don't really impact trees
+lightblue : NA
+orange : It often takes positive management intervention to prevent trees establishing - in the absence of such intervention recruitment opportunities are likely to occur occasionally
+green : Assumes landower continues scubbing, clearing etc
+darkgreen : Cover may increase but generally do not observe diversity to increase
+
+
+NA
+darkblue : NA
+red : removal of grazing allows volunteer recruitment from eucs with seed source and acacias
+pink : Have planted nothing but some new species likely to emerge - probably Acacias
+lightblue : species diversity will increase through slow colonisation
+orange : Some basic natural recovery& recuitment facilitated by better management - assumption that site is not conmpletely isolated wrt recruitment inputs
+green : Assumes natural recruitment and remnant seed bank
+darkgreen : Does not include revegetation
+
+
+NA
+darkblue : NA
+red : worst case - few spp planted and not all persist; most commonly modest diversity planted and nearly all survive, some supplementary planting after 40 yrs. Even with generously diverse plantings, 6 spp/plot is reasonable upper bound
+pink : Relatively easy to put this timber back in under high intensity - as site matures diversity in any one plot dials back due to maturity or senescence
+lightblue : active restoration plantings are likely and required in the scenario
+orange : Assumption that diverse plantings of trees are likely in first years, gradually reduced by attrition
+green : Dramatic increase as a result of planting etc.
+darkgreen : Revegetation can increase species diversity however observion is that this generally declines over time - not self-recruiting over long time frames 
+
+
+2. TG-Med1
+NA
+darkblue : NA
+red : stochastic recruitment from dispersal assume intensification of modest historic grazing regime to 'typical' levels, attrition of old trees
+pink : As TG Low
+lightblue : senescence and failure of recruitment is likely. Species composition changes may not be reflected in diversity
+orange : It often takes positive management intervention to prevent trees establishing - in the absence of such intervention recruitment opportunities are likely to occur occasionally, e.g. after fires
+green : NA
+darkgreen : Cover may increase but generally do not observe diversity to increase
+
+
+NA
+darkblue : NA
+red : Marginally different from previous, given low levels of grazing in that scenario
+pink : As TG Low
+lightblue : likely to lead to a general improving trend
+orange : Some basic natural recovery& recuitment facilitated by better management - assumption that site is not conmpletely isolated wrt recruitment inputs
+green : Based on natural recuitment 
+darkgreen : Does not include revegetation
+
+
+NA
+darkblue : NA
+red : best case scenario - planting to benchmark results in self sustaining tree diversity. Upper bound based on overplanting
+pink : As TG Low
+lightblue : NA
+orange : Assumption that diverse plantings of trees are likely in first years, gradually reduced by attrition
+green : Limted planting of tree type species to supp natural recruitment 
+darkgreen : Revegetation can increase species diversity however observion is that this generally declines over time - not self-recruiting over long time frames 
+
+
+3. TG-Med2
+NA
+darkblue : NA
+red : "locked stand" entry of new spp largely prevented by dense canopy & grazing some chance of stochastic colonisation in future
+pink : As TG Low
+lightblue : NA
+orange : Dense weed cover limits natural (unassisted) recruitment, likely that trees which die willl not be replaced, esppecially as fire is unlikely to open structure for recruits = gradual decline
+green : NA
+darkgreen : NA
+
+
+NA
+darkblue : NA
+red : partial removal of olive allows some colonisation by bird dispersal
+pink : As TG Low
+lightblue : NA
+orange : Dense weed cover limits natural (unassisted) recruitment (as per no management) and it is unlikely that low intensity management will actually improve this - however, it is possible that low intensity management may lead to slight improvement which is reflected in the lower confidence over time about the gradual decline
+green : NA
+darkgreen : Does not include revegetation
+
+
+NA
+darkblue : NA
+red : planting should restore diversity, overplanting and some attition are risks
+pink : A lot of canopy already in situ so management not likely to add new canopy
+lightblue : NA
+orange : Intervention to remove weeds (olive) and add more fire imrproves recruitment, but diverse planting not required due to exiisting canopy - giving pulse of (e.g.) Acacia recruitment which is likely to gradually settle out over time
+green : NA
+darkgreen : Revegetation can increase species diversity however observion is that this generally declines over time - not self-recruiting over long time frames 
+
+
+4. TG-High
+NA
+darkblue : NA
+red : Assumes intensification of grazing
+pink : As TG Low
+lightblue : NA
+orange : There is a fair diversity of private land management, hence the range.  I would expect a gradual decline in tree diversity without active management, but there are also likely to be occasional ;pulses of recruitment (e.g. wattles after fire) over the course of decades 
+green : NA
+darkgreen : NA
+
+
+5. GG-Low
+NA
+darkblue : NA
+red : gradual decay
+pink : Benign neglect assumed the land is not developed or altered (market gardens). So status quo of what has survived the last 50 years likely to be robust to continue 
+lightblue : ongoing mgt is likely to retain current taxa (tolerant species / unpalatable species). History of site much longer than 60 years given here.
+orange : Species remaining in these sites are likely to be quite resilient, and while there may be a gradual reduction through stochastic events, there may also be occasional recruitment, These sites are starting at a low level already.
+green : NA
+darkgreen : Persistent species
+
+
+NA
+darkblue : NA
+red : kick up after olive control but slow colonisation withut active translocation
+pink : With removal of high ly competitive weeds, upper limit may move but dependent on vectors to supply new species. These vectors will be limited as surrounding development occurs
+lightblue : likely to have grasses disperse around a site so plots will gain species slowly
+orange : These sites have great capacity for improvement, and the removal of weeds and introduction of burniing is likely to lead to new regeneration and recruitment.  Recruitment may be constrained by lack of propagules, however.
+green : NA
+darkgreen : Experience shows this condition state rarely recruits new species without direct intense intervention
+
+
+NA
+darkblue : NA
+red : assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining
+pink : Range of new species added dependent on seed availability. Results evedent by year 20 then best estimate reduction as site matures and natural niches occur
+lightblue : decrese happens as canopy mgt (planting, maturing) leads to a change in GG species composition which then increases again as canopy matures. Initial burst of persistent species from change in conditions (mix of open and canopy shading)
+orange : High intensity management is likely to lead to a good increase in grass diversity, and may include introduction of native spp.  There may be limitations due to historic fertiliser use, but this is perhaps not so likely to affect grass spp. presence, as relative dominance 
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+6. GG-Med1
+NA
+darkblue : NA
+red : gradual decay in response to grazing intensification
+pink : As for GG Low
+lightblue : site likely to have been in similar condition state decline for an extended period.
+orange : In the absence of positive management, very likely that natives will decline and weeds become more dominant
+green : NA
+darkgreen : 20-yr observation (315 properties) is of some decline but limited (excluding development)
+
+
+NA
+darkblue : NA
+red : maintains diversity or slight improvement due to continuation of mgt similar to historic
+pink : As for GG Low
+lightblue : Grass and grasslike species are more likely to respond to basic mgt inputs
+orange : Introducion of some management, and esp. burning and weed control, likely to increase gras diversity 
+green : NA
+darkgreen : While regeneration can increase native cover, species diversity does not significantly increase. Both observation & published data confirm this
+
+
+NA
+darkblue : NA
+red : Initial enhancement not sustainable as trees increase in cover
+pink : Site fairly resilient as evidenced by reasonable original diversity so additional species that have been added are more likely to continue
+lightblue : Curve of species diversity is likely to reflect an increase in canopy initially, then a change in composition from a sun loving to a shade tolerant complex of taxa
+orange : Positive management may include reintroductions, but numbers likely to relax a little over long-term.
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+7. GG-Med2
+NA
+darkblue : NA
+red : gradual decay
+pink : NA
+lightblue : Likely to keep losing species under a dense olive canopy as diversity changes from graminoid form towards broadleaf forms of plants that are more shade tolerant
+orange : Gradual decline, but these species are already fairly resilient, so deccline is small
+green : NA
+darkgreen : Typically a stable state of decline - the low number of species which are present are by nature those which can persist under these conditions
+
+
+NA
+darkblue : NA
+red : slight kick from grazing removal may not be sustainable as trees thicken further after olive removal
+pink : Progressive removal of structure changing threats with continued management assumes that site has resilience and threat has largely been structural changing weeds
+lightblue : Removal of olives tends to result in an immediate diversity response (increased light, germination from soil seedbank) and then more taxa immigrate from refugia nearby over time
+orange : Introduction of some mannagement (e.g. fire) may have small imcrease in opportunities for recruitment, but low intensity managment will not address major issue (e.g. olives)
+green : NA
+darkgreen : Generally this condition state has at least some suppressed species (bud and seed bank) which emerge to measurable levels when suppressing canopy is removed
+
+
+NA
+darkblue : NA
+red : iniitial plantings.scalping increase richness but not sustainable
+pink : As for low intensity management with additional species dispersed through management activities
+lightblue : Likely to have a diverse planting initially and then later immigration of other taxa from refugia
+orange : Removal of olives and introduction of natives will increase diversity greatly, but likely to be gradual reduction back to more 'natural' levels
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+8. GG-High
+NA
+darkblue : NA
+red : gradual decay in response to grazing & fert app
+pink : Lower bound considers benign neglect does not address structural changing weeds such as Olive or Lovegrass
+lightblue : status quo may lead to general slow decline as site is managed 'as is'
+orange : Again, a wide range in provate land management, but I would expect a gradual decline without active management of some type
+green : NA
+darkgreen : There is little observed decline in species diversity in high quality sites. Sites which have survived the previous 200 years of abuse to retain this level of diversity generally remain resilient. However some decline in forbs and herbs can occur through new pressures from adjoining land uses in certain instances
+
+
+9. FG-Low
+NA
+darkblue : NA
+red : gradual attrition
+pink : Tough forbs remain - eg, Dichondra
+lightblue : persistence of tolerant or annual forbs
+orange : I would expect a small decline, but these species are already quite resilient, so the decline will be small.
+green : NA
+darkgreen : Persistent species
+
+
+NA
+darkblue : NA
+red : marginal increase with grazing removal, but largey stable thereafter - legacy
+pink : removal of threats - particularly grazing could get a big rebound. This is the reason for the seemingly high upper bound
+lightblue : Likely to see a rapid initial response of plants to management of the groundcover weed through herbicide and fire
+orange : Some management will improve forb diversity, but likely to be limited in some sites by available propagules
+green : NA
+darkgreen : Experience shows this condition state rarely recruits new species without direct intense intervention
+
+
+NA
+darkblue : NA
+red : increase with planting but not sustainable as eucs increase, stochastic losses occur
+pink : Upper bound depends on available supply - could go higher. Those that are surviving after 20 years following initial reconstruction are likely to remain with ongoing intense management and ignoring climate change
+lightblue : Likely to see a quick response from diversity planting , plateau as canopy thickening occurs, then gradual increase once canopy matures.
+orange : Active management will greatly increase forb diversity, perhaps above 'natural' levels
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+10. FG-Med1
+NA
+darkblue : NA
+red : decay in response to increased grazing
+pink : Trends to low quality state 
+lightblue : Likely to see a general decline in species as a result of mt trends (persistent tussock is the more likely occurrence)
+orange : In the absence of positive managment, I would expect some decline in diversity.
+green : NA
+darkgreen : 20-yr observation (315 properties) is of some decline but limited (excluding development)
+
+
+NA
+darkblue : NA
+red : maintains or slighty improves in respose to marginal reduction in grazing
+pink : The site already has some diversity so any work will provide some rebound that should be easy to maintain with ongoing management. Vectors for new species is likely to reduce after development occurs so any new species likely to show up in first 20 years.
+lightblue : Likely to see a general improvement from sward mgt and strategic grazing
+orange : Introduction of some management, and particularly fire and weed, will be likely to increase forb diversity a bit 
+green : NA
+darkgreen : While regeneration can increase native cover, species diversity does not significantly increase. Both observation & published data confirm this
+
+
+NA
+darkblue : NA
+red : immediate increase due to transloc, slight attrition subsequently
+pink : As for low intensity management but opportunity to add from available supplies
+lightblue : Likely to see a rapid gain following commencing site mgt (planting) and then a drop as canopy shading matures and species composition changes from sun tolerant to shade tolerant
+orange : Active management will include re-introduction of forbs, and is likely to lead to a slightlly inflated diversity compared to natural situation
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+11. FG-Med2
+NA
+darkblue : NA
+red : gradual decay
+pink : Invasive threats progress to further impact
+lightblue : Likely to see a continual decline as species are shaded out and groundcover cannot establish in olive-affected lands (allelopathic)
+orange : Remaining forbs are likely to be resilient, but may gradually decline
+green : NA
+darkgreen : Typically a stable state of decline - the low number of species which are present are by nature those which can persist under these conditions
+
+
+NA
+darkblue : NA
+red : initial improvement with grazing removal, hits restoration barrier
+pink : As for GG Med 2
+lightblue : Control of olives leads to a rapid response of species, including many annuals and this is residual for some time although native canopy thickening and recruitment leads to a shading again and change in taxa mix
+orange : some management (at least) will improve things a little, but no major change without olives being removed
+green : NA
+darkgreen : Generally this condition state has at least some suppressed species (bud and seed bank) which emerge to measurable levels when suppressing canopy is removed
+
+
+NA
+darkblue : NA
+red : initial increase due to planting not sustainable as eucs increase
+pink : As for FG Med 1 but increased existing canopy limits diversity of recruitment. 
+lightblue : Likely to see a rapid gain from olive mgt and planting of diversity, briefly plateauing until shade tolerant species immigrate from refugia
+orange : Active management will increase diversity above 'natural' levels for a while 
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+12. FG-High
+NA
+darkblue : NA
+red : decay in response to grazing intensification
+pink : Trends to low quality site due to invasive structural weeds
+lightblue : Likely to see a persistent, slow decline from a good starting position as BAU practices see little mgt improvement opportunity
+orange : Again, a wide range of management, but gradual decline in diversity is likely without some conscious manamgement actions being taken to prevent decline  
+green : NA
+darkgreen : There is little observed decline in species diversity in high quality sites. Sites which have survived the previous 200 years of abuse to retain this level of diversity generally remain resilient. However some decline in forbs and herbs can occur through new pressures from adjoining land uses in certain instances
+
+
+13. TG-Cover-Low
+NA
+darkblue : NA
+red : no increase is worst scenario when trees already absent, some stochastc increase possible under upper bound, some allowance for dieback on best est
+pink : Following trend of past 50 years of sites left in benign neglect gaining trees. Worst case is nothing changes
+lightblue : Overall the amount of tree cover is unlikely to change but it may become generally younger
+orange : Private managmment highly variable, but  likely that some recruitmen of trees may occur over 60 years, unless very active exclusion is happening
+green : NA
+darkgreen : Landscape scale decline of trees is well documented in both unmanaged (for NRM) and intensively managed (for NRM) sites across the cumberland plain. This is offset by natural recruitment on native pasture, but such recruitment is very rarely observed on exotic pastures where canopy is typically remnant from before intervention. Land management (slashing, grazing) further reduces this
+
+
+NA
+darkblue : NA
+red : some recruitment & growth to woody thickening by eucs
+pink : Growth and recruitment of canopy trees already in situ
+lightblue : Canopy cover returns quickly under appropriate fire regime and grazing mgt
+orange : Some management (removal of impacts, adding fire) will increase tree recruitment, sometimess in a major pulse which will takes decades to thin withhoiiut active management
+green : NA
+darkgreen : See above. Low intensity management does not incorporate revegetation
+
+
+NA
+darkblue : NA
+red : dense tree planting, locked stand scenario except where plantings are lower initial density
+pink : Mass planting and management provides the ability to engineer this outcome. Trees are the easy win on a site that is protected and can be managed
+lightblue : Canopy cover can be restored relatively quickly at low cost, although the stems will tend to be poor habitat. The likelihood of exceeding these values is also high
+orange : Optimal management should result in stable tree cover 
+green : NA
+darkgreen : Revegetation can increase cover however observion is that this generally declines over time where native groundcovers are not prevalent
+
+
+14. TG-Cover-Med1
+NA
+darkblue : NA
+red : some attrition and little recruitment
+pink : As for TG Low
+lightblue : Likely to remain at similar cover percentage, but confidence decreases to reflect uncertainty
+orange : Native tree species are generally resilient, but likely to be limited by ongoing grazing, competition from exotic ground cover and lack of burning
+green : NA
+darkgreen : Landscape scale decline is expected, outbalanced by natural regeneration which occurs strongly where native groundcovers are present, but balanced by land management (grazing or slashing). Our observation is that across the Cumberland Plain tree cover is increasing on unmanaged lands
+
+
+NA
+darkblue : NA
+red : some grwoth and auto-recruitment, starts to abate in upper bound
+pink : As for TG Low
+lightblue : Will see a slow increase in tree cover under mgt
+orange : Exclusion of grazing, burning and weed management will greatly improve tree recruitment, but it may be limited by low initial cover limiting numbers and distribution of propagules- however general experience across western Sydney has shown that vigorous recruitment of trees often occurs (e.g. ADI)
+green : NA
+darkgreen : Where native groundcovers are prevalent natural regeneration of canopy cover is very strong - in over 300 CPW management sites we've always had high (sometimes too high) natural recruitment of trees where native groundcovers are present
+
+
+NA
+darkblue : NA
+red : planting causes increase after 20yrs
+pink : As for TG Low
+lightblue : Canopy planting makes for a rapid increase in cover. Highest density likely to occur at 40 y with crown maturation before self thinning occurs
+orange : High-intensity management is likely to involve major plantings to increase tree cover, possibly leading to an overabundance of tree-cover in the short-to-medium term, but likely to lead to a more balanced outcome in the long-term
+green : NA
+darkgreen : No additional gains by assisted revegetation (it is possible to achieve higher tree densities however these represent a DECLINE in biodiversity value and not factored here)
+
+
+15. TG-Cover-Med2
+NA
+darkblue : NA
+red : native canopy gradually replaced by olive in lower bound, locked stand in upper bound
+pink : As for TG Low
+lightblue : Continual decrease of condition as failure to recruit through the thickened midstorey
+orange : dense sub-canopy of olives will prevent major tree recruitment unless major intervention is done, although some small increase in cover from tree growtth is possible
+green : NA
+darkgreen : Lower quality of groundcovers mean little canopy replacement for this category; regional dieback is also exacerbated in association with woody weeds
+
+
+NA
+darkblue : NA
+red : eucs increase by growth & recruitment with olive control in lower bound but slowing over time, some self thnining in upper bound increasing as some individuals senesce
+pink : As for TG Low
+lightblue : Cover bounce likely as recruitment happens following weed control but will likely plateau following the 60 year period.
+orange : Low-intensity management may make some small inroads into major weeds (e.g. Olives) leading to small increases in tree cover, but unlikely to lead to major improvements in tree recruitment without 'industrial' weed management occuring
+green : NA
+darkgreen : Have observed strong short-term recovery of canopy in this circumstance once woody weeds treated; anticipate recruitment to influence 40-60 year timeframes in similar positive manner
+
+
+NA
+darkblue : NA
+red : olive control generates euc increase in lower bound, eucs gradually thin in upper bound
+pink : As for TG Low
+lightblue : Cover raised by planting then declines as crown matures.
+orange : High-intensity management will involve removing olives and provide better opportunity for tree recruitment and/or plantring, leading to recovery/stabilisation of canopy cover over time
+green : NA
+darkgreen : No additional gains by assisted revegetation (it is possible to achieve higher tree densities however these represent a DECLINE in biodiversity value and not factored here)
+
+
+16. TG-Cover-High
+NA
+darkblue : NA
+red : grazing does not dramatically affect survival of trees but reduces recruitment in lower bound - marginal declne, thinning in upper bound
+pink : Best estimate identifies natural recruitment to more forest like state with exclusion of high intensity fires as surrounding development limits these 
+lightblue : General decline of tree cover on the site through senescence and slow recruitment
+orange : Typical private land management of a high-quality remnant is likely to lead to some deterioration in tree health and cover over time, but counter-acted to some degree by natural tree recruitment and resilience
+green : NA
+darkgreen : General canopy decline in region (e.g. grey box psyllid) does not generally impact high quality sites; any such losses are overtaken by recruitment. Problem for many sites is overrecruitment of trees
+
+
+17. GG-Cover-Low
+NA
+darkblue : NA
+red : ongoing suppression of native grasses by grazing, possibly some decline uder worse case scenario
+pink : Spread of structural changing species, manily olive, causing removal of any groundcover growth
+lightblue : Gradual decline of grasses under general management
+orange : Some native Grasses likely to remain in low cover despite unsympathetic management, but there is also a chance that they may stage a partial recovery , (e.g.) if a couple of fires occur a few years apart.
+green : NA
+darkgreen : These species are those that survive regardless, and will continue to do so in the same abundance under business as usual
+
+
+NA
+darkblue : NA
+red : expect some increase in cover if lovegrass controlled, with benefit diminishing over time and even declining
+pink : Progressive removal of competing exotic groundcovers 
+lightblue : Grass cover will increase under mgt then plateau as tree cover shades out further increase
+orange : Introduction of fire and some weed management is likely tro boost native grass cover, at least for 2-4 years following the fires (upper estimate), but the effect will be transitory without regular and/or significant weed control action (lower estimate)
+green : NA
+darkgreen : Extensive practitioner experience in the Cumberland Plain is that sites with poor groundcovers do not naturally recover groundcovers without extensive restoration (e.g. scalping) although minor gains can be made through competitive exclusion
+
+
+NA
+darkblue : NA
+red : Scalping generates iniitIal increase but not wholly sustained because of site legacies
+pink : Allows for complete removal of exotic groundcovers in a best case scenario - and given ongoing high intensity over 60 years then similar result in best estimate
+lightblue : cover plateauing as canopy crowns
+orange : Regular biurning accompanied by significant weed control effort is likely to lead to a significannt and sustained improvement in native grass cover, which will be sustained over time if management is sustained at maintenance levels
+green : NA
+darkgreen : Grassy-groundcover' (scalp and seed) monitoring by GS LLS shows very good initial results but low resilience and a natural attrition of gains over time
+
+
+18. GG-Cover-Med1
+NA
+darkblue : NA
+red : Native grass cover declines in response to intensification of agricultural mgt, hobby farms, etc
+pink : Likely incursions of structiural changing weeds in lower bound - olive
+lightblue : Gradual decline under the influence of competing grasses
+orange : Native grass cover likely to decline under typical 'benign' private management (over-grazing, lack of fire), and even more if agriculture practised
+green : NA
+darkgreen : Site management is fairly consistent - what has survived generally continues to do so. There is a risk of declines and this is observed with a minority of sites, typically through unauthorised or inappropriate land use changes. A significant number of sites also improve through benign neglect as transition from production grazing to hobby farm use
+
+
+NA
+darkblue : NA
+red : lower boiund stable or slight increase in response to continuation of mgt regime similar to historic. Upper bound (change from low stocking rate to no livestock may promote slight increase in trees & shrubs at expense of grasses, but should not be major due to limited historic disturbance to soils
+pink : Low intensity removes those structural issues so change is at lower bound only. Assumes upper bound didn't have the structural issues and the low management has kept them at bay
+lightblue : gradual upward improvement as weed species are addressed
+orange : Introduction of fire and some weed control likely to increase covver of native grasses, with major issue being whether transformative weeds (Love Grass) prevent native re-establishment
+green : NA
+darkgreen : We generally find a strong increase of groundcover in this scenario, however this is not the case with all sites (hence the lower bound)
+
+
+NA
+darkblue : NA
+red : lower bound has slight increase, upper bound  declines as trees increse in response to planting via similar mechanism to those for low intensity mgt
+pink : As for low intensity but more ability to remove other competing exotic groundcovers
+lightblue : sharp upward rise, then a plateauing of grass at a stable density under management
+orange : High-intensity management will deal with Love Grass, and introduction of fire and weed control will allow native grasses to thrive - responsive management will also increase balance of herbs cf to  grasses 
+green : NA
+darkgreen : There is no additional gain in the long term by more intensive management where a core base of native groundcovers is already present; this is more resilient than scalping and revegetating, so more expensive techniques deliver less result here (despite initial peak)
+
+
+19. GG-Cover-Med2
+NA
+darkblue : NA
+red : Ongoing decline of native grass cover
+pink : Increase impacts of Olive completely changing structure of community
+lightblue : groundcover likely dominated by perennial exotic pasture grasses
+orange : Presence of olives will preventr re=establishment of grasses, and over time, will likely slightly reduce them.
+green : NA
+darkgreen : The groundcover that can survive this state generally continues to do so, but some loss possible through landclearing etc
+
+
+NA
+darkblue : NA
+red : Stable or minor increase in grass cover which is most limited by dense eucs and olive, initial increase due to olive control, but shading by eucs later increases
+pink : Progressive clearing of any structural issues allowing regrowth of cover, mostly occuring in first 20 years
+lightblue : gradual increase with mgt of certain weed species but no high-intensity effort to manage for native dominance
+orange : Introduction of fire and some weed control may increase space for grass recruitment to a small degree, but major success not likely without significant managment effort
+green : NA
+darkgreen : Generally this condition state has at least some suppressed species (bud and seed bank). These strongly recover in cover (but only moderately in diversity) when suppressing canopy is removed
+
+
+NA
+darkblue : NA
+red : Increase in response to olive control and planting, but only partly sustainable as eucs increase
+pink : Upper bound and best estimate assumes teh management also includes thining of native canopy to ensure coverage can progress. Lower bound provides less of that activity
+lightblue : targeted effort to manage exotic competiive grassses
+orange : Major weed control efforts coupled with burning will reduce impact of transformative weeds and make room for grass re-establishment
+green : NA
+darkgreen : Intensive management generally does little to improve recovery of this condition, although heavy seeding shortly after clearing woody weeds can significantly improve results
+
+
+20. GG-Cover-High
+NA
+darkblue : NA
+red : Immediate & sustained reduction in grasses due to direct grazing and livestock trampling, incursion of weeds, posibly some fertiliser use when there had been little historically
+pink : High quality site with benign neglect will be over run by Olive over 60 years. The alternate is that it has had grazing to limit Olive growth so the cover reduces anyway.
+lightblue : May maintain or improve a small amount (under mgt of exotic weed grasses) but more likely to continue to decrease in condition
+orange : private land management is likely to involve a reduction in fire frequency whichc will reduce native grass vitality (pklus issues of grazing pressure).  Lack of specific weed management likely to allow other weeds to intrude
+green : NA
+darkgreen : There is little to no observed decline in coverage in high quality sites. Some confidence built in to account for changes to land management. Both positive and negative changes observed to be about equal - many intensively managed sites now converted to lifestyle with stocking and firewood harvesting reduced (biodiveristy gains) while others undertaking clearing
+
+

@@ -6,25 +6,25 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,5,15,10,90,5,15,,,5,15
+40,5,12,8,90,5,12,,,5,12
+60,5,10,7.5,85,5,10,,,5,10
+Comment (optional),"Presence of olives will preventr re=establishment of grasses, and over time, will likely slightly reduce them.",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,5,20,10,90,5,20,,,5,20
+40,5,20,15,85,4,20,,,4,20
+60,5,20,15,80,4,21,,,4,21
+Comment (optional),"Introduction of fire and some weed control may increase space for grass recruitment to a small degree, but major success not likely without significant managment effort",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,,,,,,,,,,
-40,,,,,,,,,,
-60,,,,,,,,,,
-Comment (optional),,,,,,,,,,
+20,15,55,30,90,15,55,,,15,55
+40,30,65,45,85,29,55,,,29,66
+60,45,75,55,80,44,55,,,44,78
+Comment (optional),Major weed control efforts coupled with burning will reduce impact of transformative weeds and make room for grass re-establishment,,,,,,,,,
