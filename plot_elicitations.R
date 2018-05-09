@@ -43,6 +43,7 @@ fit_splines <- function(numerical_data_matrix, plot_sheet_num, time_vec_new, fit
   return(spline_fits)
 }
 
+# -------------------------------------------------
 
 
 plot_splines <- function(spline_fits, numerical_data_matrix,plot_sheet_num, plot_x_space, plot_y_space, plot_starts, plot_names, 
@@ -52,11 +53,35 @@ plot_splines <- function(spline_fits, numerical_data_matrix,plot_sheet_num, plot
     pdf(paste0('plots/spline_fits.pdf'), width = 8.3, height = 11.7)
   }
   
+  setup_sub_plots(nx = 3, ny = 3, plot_x_space, plot_y_space)
+
+
+  ct.index  <- 1 # index to keep track of how to access info from the ct dataframe (with the condition thresholds)
+  sheet.ctr <- 1 # counter to keep track of sheets and refresh the plot window after every 4 plots.
+
   for (sheet_ind in 1:plot_sheet_num){
+
     y_lims = sheet_y_lims[[sheet_ind]]
-    setup_sub_plots(nx = 3, ny = 3, plot_x_space, plot_y_space)
+
+    # Refresh the plot window every 4 plots
+    cat('\n sheet_ind =', sheet_ind, 'worksheet_names =', worksheet_names[sheet_ind], ' ct.index=', ct.index, 
+      'sheet.ctr =', sheet.ctr)
+
+    #if( sheet_ind %% 5 == 0) {
+    if( sheet.ctr==5 ) {
+       setup_sub_plots(nx = 3, ny = 3, plot_x_space, plot_y_space)
+       cat('**resetting plot window')
+       #ct.index <- ct.index + sheet_ind - 1
+       ct.index <- ct.index  + 4
+       sheet.ctr <- 1
+    }
+    sheet.ctr <- sheet.ctr + 1
+
+    
+
     current_plot_starts = plot_starts[[sheet_ind]]
 
+    plot_headings <- c('unamanged', 'low intensity mgmnt', 'high intensity mgmnt')
     for (plot_ind in 1:length(current_plot_starts)){
       #plot_lab = plot_names[[sheet_ind]][[1]][current_plot_starts[plot_ind] - 2]
       plot_lab = ''
@@ -77,19 +102,59 @@ plot_splines <- function(spline_fits, numerical_data_matrix,plot_sheet_num, plot
         current_plot_spline = predict(spline_fits[[sheet_ind]][[plot_ind]], time_vec_new)
         
         current_plot_list = list(current_plot_spline$y)
-        y_lab = gsub("Management scenario:", "", plot_lab)
+        if (plot_ind == 1){
+          y_lab = worksheet_names[sheet_ind]
+          } else {
+            y_lab = ''
+          }
+
         #plot_heading = column_names[col_ind]
-        plot_heading = ''
+        plot_heading = 'test'
+        plot_heading = plot_headings[plot_ind]
         overlay_plot_list(plot_type = 'non-overlay', current_plot_list, x_vec = time_vec_new, yticks = 'y', y_lims, heading = plot_heading, y_lab, x_lab = '', 
                           col_vec = author_col, lty_vec = rep(plot_lty, length(current_plot_list)), lwd_vec = rep(plot_lwd, length(current_plot_list)), 
                           legend_vec = 'NA', legend_loc = FALSE)
         
-        points(time_vec, current_plot_points)
+        points(time_vec, current_plot_points, cex=1.8, pch=19)
+
+        # x <- c(0, 0, 100, 100)
+        x <- c(time_vec_new[1], time_vec_new[1], time_vec_new[length(time_vec_new)], time_vec_new[length(time_vec_new)])
+
         
+
+        # low condition
+        y <- c(ct['lower.bound',ct.index], ct['upper.bound',ct.index], ct['upper.bound',ct.index],  ct['lower.bound',ct.index] )
+        polygon( x, y, col=rgb(1, 0, 0,0.2), border=NA )
+        abline(h=ct['initial.val',ct.index], col=rgb(1, 0, 0, 0.4), lwd=2, lty=1)
+        text(9,ct['lower.bound',ct.index]+0.1, 'Low', cex=1.2, col=rgb(1, 0, 0,1) )
+
+        # med1 condition
+        y <- c(ct['lower.bound',ct.index+1], ct['upper.bound',ct.index+1], ct['upper.bound',ct.index+1],  ct['lower.bound',ct.index+1] )
+        polygon( x, y, col=rgb(0, 0, 1, 0.4), border=NA, density=25 )
+        abline(h=ct['initial.val',ct.index+1], col=rgb(0, 0, 1, 0.4), lwd=2, lty=1)
+        text(9,ct['upper.bound',ct.index+1]+0.3, 'Med1', cex=1.2, col=rgb(0, 0, 1, 1))
+
+
+        # high condition
+        y <- c(ct['lower.bound',ct.index+3], ct['upper.bound',ct.index+3], ct['upper.bound',ct.index+3],  ct['lower.bound',ct.index+3] )
+        polygon( x, y, col=rgb(0, 1, 0,0.2), border=NA )
+        abline(h=ct['initial.val',ct.index+3], col=rgb(0, 1, 0, 0.4), lwd=2, lty=1)
+        text(9,ct['upper.bound',ct.index+3]+0.1, 'High', cex=1.2, col=rgb(0, 1, 0, 1))
+        
+
+        # med2 condition
+        rgbcol <- rgb(0.7, 0.3, 0.5, 0.4)
+        y <- c(ct['lower.bound',ct.index+2], ct['upper.bound',ct.index+2], ct['upper.bound',ct.index+2],  ct['lower.bound',ct.index+2] )
+        # polygon( x, y, col=rgbcol, border=NA)
+        polygon( x, y, col=rgbcol, border=NA, density=10, angle=120)
+        abline(h=ct['initial.val',ct.index+2], col=rgbcol, lwd=2, lty=1)
+        text(85,ct['lower.bound',ct.index+2]-0.3, 'Med 2', cex=1.2, col=rgb(0.7, 0.3, 0.5), font.lab = 2 )
+        
+        #browser()
       }
       
     }
-    title(worksheet_names[sheet_ind], outer=TRUE)
+    #title(worksheet_names[sheet_ind], outer=TRUE)
   }
   
   
@@ -98,9 +163,7 @@ plot_splines <- function(spline_fits, numerical_data_matrix,plot_sheet_num, plot
   }
 }
 
-
-
-
+# -------------------------------------------------
 
 
 pull_worksheets <- function(file_prefix, sheet_characteristics, authors_to_pull, worksheets_to_pull){
@@ -125,6 +188,7 @@ pull_worksheets <- function(file_prefix, sheet_characteristics, authors_to_pull,
   
 }
 
+# -------------------------------------------------
 
 collate_sheet_data <- function(worksheets_to_collate, author_num){
   plot_sheet_num = length(worksheets_to_collate)
@@ -145,6 +209,8 @@ collate_sheet_data <- function(worksheets_to_collate, author_num){
   }
   return(sheet_data)
 }
+
+# -------------------------------------------------
 
 
 plot_sheet_data <- function(numerical_data_matrix, plot_sheet_num, author_num, plot_x_space, plot_y_space, time_vec, comments, 
@@ -242,6 +308,9 @@ plot_sheet_data <- function(numerical_data_matrix, plot_sheet_num, author_num, p
   
   close(fileConn)
 }
+
+# -------------------------------------------------
+
 overlay_plot_list <- function(plot_type, plot_list, x_vec, yticks, y_lims, heading, ylab, x_lab, col_vec, lty_vec, lwd_vec, legend_vec, legend_loc){
   
   if (plot_type == 'non-overlay'){
@@ -255,21 +324,29 @@ overlay_plot_list <- function(plot_type, plot_list, x_vec, yticks, y_lims, headi
       lines(y = plot_list[[plot_ind]],  x = x_vec, ylim = y_lims, col = col_vec[plot_ind], lwd = lwd_vec[plot_ind], lty = lty_vec[plot_ind])
     }
   }
+
   abline(h = 0, lty = 2)
   if (legend_vec[1] != 'NA'){
     legend(legend_loc, legend_vec, bty="n", lty = lty_vec, cex = 1,  pt.cex = 1, lwd = lwd_vec, col = col_vec)
   }
+
+
 }
+
+# -------------------------------------------------
 
 setup_sub_plots <- function(nx, ny, x_space, y_space){
   par(mfrow = c(ny, nx))
   par(cex = 0.6)
-  par(mar = c(x_space, y_space, 1, 0), oma = c(5, 5, 5, 5))
+  par(mar = c(x_space, y_space, 1, 0), oma = c(1, 3, 1, 1), font.lab = 2 )
   
   par(tcl = -0.25)
   par(mgp = c(2, 0.3, 0))
   
 }
+
+# -------------------------------------------------
+
 
 # gs_auth(new_user = TRUE)
 
@@ -305,9 +382,12 @@ pull_data = FALSE
 plot_selection_type = 'by_plot'
 plot_means = FALSE
 include_random_data = FALSE
-output_pdf_filename = 'CP_elicitation_workshop_1.pdf'
+#output_pdf_filename = 'CP_elicitation_workshop_1.pdf'
+output_pdf_filename = 'Splines_v2.pdf'
 file_prefix = 'Elicitation_CP_Workshop_'
-worksheets_to_pull = c(15:22)
+worksheets_to_pull = c(15:22)  # worksheets to pull down from google sheets- only for pull_data TRUE
+worksheets_to_collate = c(2:13, 15:22) # what data to work with - Note sheet 1 is instructions, 14 is benchmark 
+
 sheet_num = length(worksheets_to_pull)
 authors_to_pull = 5
 
@@ -320,14 +400,14 @@ cols_to_plot = c(2, 3, 4)
 time_vec = c(0, 20, 40, 60)
 lty_vec = c(1, 1, 2)
 
-plot_x_space = 2
-plot_y_space = 1.5
+# set the spacing between each of the plots
+plot_x_space =  2
+plot_y_space =  2.8
 
 if (pull_data == TRUE){
   pull_worksheets(file_prefix, sheet_characteristics, authors_to_pull, worksheets_to_pull)
 }
 
-worksheets_to_collate = c(2:13, 15:22)
 
 sheet_data <- collate_sheet_data(worksheets_to_collate, author_num)
 
@@ -359,14 +439,36 @@ worksheet_comments = lapply(seq_along(comments),
     
 sheet_y_lims = lapply(seq_along(sheet_maxs), function(i) c(0, max(sheet_maxs[[i]][, 3], na.rm = TRUE)))
 
-plot_sheet_data(numerical_data_matrix, plot_sheet_num = length(worksheets_to_collate), author_num, plot_x_space, plot_y_space, time_vec, comments, 
-                sheet_mins, sheet_maxs, sheet_means, plot_starts, plot_nums, worksheet_comments, worksheet_names_to_use, sheet_y_lims)
+# plot_sheet_data(numerical_data_matrix, plot_sheet_num = length(worksheets_to_collate), author_num, plot_x_space, plot_y_space, time_vec, comments, 
+#                 sheet_mins, sheet_maxs, sheet_means, plot_starts, plot_nums, worksheet_comments, worksheet_names_to_use, sheet_y_lims)
   
 
-time_vec_new = 1:100 
-fit_type = 'by_mean' 
+sheet_y_lims[[1]][2] <- 6.1
+sheet_y_lims[[2]][2] <- 6.1
+sheet_y_lims[[3]][2] <- 6.1
+sheet_y_lims[[4]][2] <- 6.1
 
-column_to_use = 3
+sheet_y_lims[[5]][2] <- 22
+sheet_y_lims[[6]][2] <- 22
+sheet_y_lims[[7]][2] <- 22
+sheet_y_lims[[8]][2] <- 22
+
+sheet_y_lims[[9]][2]  <- 26
+sheet_y_lims[[10]][2] <- 26
+sheet_y_lims[[11]][2] <- 26
+sheet_y_lims[[12]][2] <- 26
+
+sheet_y_lims[[13]][2] <- 70
+sheet_y_lims[[14]][2] <- 70
+sheet_y_lims[[15]][2] <- 70
+sheet_y_lims[[16]][2] <- 70
+
+time_vec_new = -20:100
+fit_type = 'by_mean'
+# 2 - lower bound
+# 3 - upper bound
+# 4 - best estimate
+column_to_use = 4
 
 spline_fits = fit_splines(numerical_data_matrix, 
             plot_sheet_num = length(worksheets_to_collate), 
@@ -374,6 +476,11 @@ spline_fits = fit_splines(numerical_data_matrix,
             fit_type, 
             plot_starts, 
             column_to_use)
+
+#plot_sheet_num = length(worksheets_to_collate)
+plot_sheet_num = 20
+
+source('cond.thresholds.R')
                           
 plot_splines(spline_fits, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts, plot_names = list(), 
              fit_type, author_num, sheet_means, time_vec, time_vec_new, sheet_y_lims, worksheet_names_to_use)
