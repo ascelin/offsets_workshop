@@ -1,0 +1,30 @@
+Tree cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,10,65,40,90,10,65,,,10,65
+40,15,65,45,80,11,65,,,11,68
+60,15,65,45,75,9,65,,,9,69
+Comment (optional),"dense sub-canopy of olives will prevent major tree recruitment unless major intervention is done, although some small increase in cover from tree growtth is possible",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,15,65,40,90,15,65,,,15,65
+40,20,70,45,85,19,65,,,19,71
+60,25,75,50,80,22,65,,,22,78
+Comment (optional),"Low-intensity management may make some small inroads into major weeds (e.g. Olives) leading to small increases in tree cover, but unlikely to lead to major improvements in tree recruitment without 'industrial' weed management occuring",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,10,65,40,95,12,64,,,12,64
+20,25,70,55,90,25,65,,,25,70
+40,45,80,65,85,44,65,,,44,81
+60,55,75,70,80,53,65,,,53,76
+Comment (optional),"High-intensity management will involve removing olives and provide better opportunity for tree recruitment and/or plantring, leading to recovery/stabilisation of canopy cover over time",,,,,,,,,

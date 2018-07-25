@@ -9,7 +9,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,c,70,40,95,#VALUE!,55,,,#VALUE!,68
 40,12.5,70,40,90,13,55,,,13,70
 60,12.5,70,40,80,9,55,,,9,74
-Comment (optional),,,,,,,,,,
+Comment (optional),Hard to predict given the range of private land management activities; no change (on average) with wide bounds,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,

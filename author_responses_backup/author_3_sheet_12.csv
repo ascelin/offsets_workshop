@@ -1,0 +1,30 @@
+Forb richness - Medium quality 2 (Canopy),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,95,3,9,,,3,9
+20,1,6,3,80,1,6,,,1,6
+40,0,5,3,70,0,6,,,-1,6
+60,0,5,2,60,0,7,,,-1,7
+Comment (optional),Invasive threats progress to further impact,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,95,3,9,,,3,9
+20,6,12,8,80,6,13,,,6,13
+40,8,16,10,70,7,18,,,7,18
+60,10,20,12,60,9,24,,,9,24
+Comment (optional),As for GG Med 2,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,9,5,100,3,9,,,3,9
+20,8,14,10,80,8,15,,,8,15
+40,10,16,12,65,9,18,,,9,18
+60,10,20,14,55,7,24,,,7,24
+Comment (optional),As for FG Med 1 but increased existing canopy limits diversity of recruitment. ,,,,,,,,,

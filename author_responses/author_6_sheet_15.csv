@@ -9,7 +9,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,1,5,1,80,1,6,,,1,6
 40,1,4,2,75,1,4,,,1,4
 60,1,3,1,60,1,4,,,1,4
-Comment (optional),,,,,,,,,,
+Comment (optional),Limited changes over time,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,5,15,10,80,4,16,,,4,16
 40,10,20,15,75,9,21,,,9,21
 60,10,30,20,60,5,35,,,5,35
-Comment (optional),,,,,,,,,,
+Comment (optional),"Additional planting, natural recruitment and regenerating remnant and planted specimens   ",,,,,,,,,

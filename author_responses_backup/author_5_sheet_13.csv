@@ -1,0 +1,12 @@
+Forb richness - High quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,12,25,15,95,12,24,,,12,24
+20,10,25,14,90,10,25,,,10,25
+40,8,25,13,85,8,25,,,8,26
+60,7,25,12,80,6,25,,,6,27
+Comment (optional),"Again, a wide range of management, but gradual decline in diversity is likely without some conscious manamgement actions being taken to prevent decline  ",,,,,,,,,

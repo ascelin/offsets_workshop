@@ -15,9 +15,9 @@ Comment (optional),"Native grass cover likely to decline under typical 'benign' 
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,15,65,40,95,16,55,,,16,64
-20,25,75,45,90,25,55,,,25,75
-40,30,80,50,85,29,55,,,29,82
-60,35,80,55,80,33,55,,,33,83
+20,25,70,45,90,25,55,,,25,70
+40,30,75,50,85,29,55,,,29,76
+60,35,75,55,80,33,55,,,33,78
 Comment (optional),"Introduction of fire and some weed control likely to increase covver of native grasses, with major issue being whether transformative weeds (Love Grass) prevent native re-establishment",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,40,75,55,,,,,,,
 40,50,80,60,,,,,,,
 60,55,75,65,,,,,,,
-Comment (optional),"High-intensity management will deal with Love Grass, and introduction of fire and weed control will allow native grasses to thrive - responsive management will also increase balance of herbs cf to  grasses ",,,,,,,,,
+Comment (optional),"High-intensity management will deal with Love Grass, and introduction of fire and weed control will allow native grasses to thrive - responsive management will also increase balance of herbs cf to grasses ",,,,,,,,,

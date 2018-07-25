@@ -15,9 +15,9 @@ Comment (optional),"I would expect a small decline, but these species are alread
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
-20,3,14,7,90,3,14,,,3,14
-40,5,15,9,85,5,15,,,5,15
-60,6,16,12,80,5,17,,,5,17
+20,3,12,7,90,3,12,,,3,12
+40,5,14,9,85,5,14,,,5,14
+60,6,16,11,80,5,17,,,5,17
 Comment (optional),"Some management will improve forb diversity, but likely to be limited in some sites by available propagules",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,

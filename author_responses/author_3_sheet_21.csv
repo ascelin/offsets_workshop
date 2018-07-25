@@ -6,7 +6,7 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,2,10,8,60,0,11,,,-1,11
+20,2,10,6,60,0,12,,,0,12
 40,2,8,6,55,0,9,,,-1,9
 60,2,8,4,50,0,11,,,0,11
 Comment (optional),Increase impacts of Olive completely changing structure of community,,,,,,,,,
@@ -15,9 +15,9 @@ Comment (optional),Increase impacts of Olive completely changing structure of co
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,20,50,35,65,14,55,,,14,56
-40,20,55,40,55,7,55,,,7,65
-60,20,60,40,50,4,55,,,4,76
+20,15,50,35,65,7,55,,,7,56
+40,15,50,40,55,0,55,,,-1,56
+60,15,50,40,50,0,55,,,-5,58
 Comment (optional),"Progressive clearing of any structural issues allowing regrowth of cover, mostly occuring in first 20 years",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,

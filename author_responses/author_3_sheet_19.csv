@@ -6,25 +6,25 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,4,15,8,65,2,18,,,2,18
-40,3,15,6,60,2,20,,,2,20
-60,2,15,5,50,0,23,,,0,23
+20,2,15,7,65,0,18,,,0,18
+40,2,15,6,60,0,20,,,0,20
+60,2,15,5.5,50,0,23,,,-1,23
 Comment (optional),"Spread of structural changing species, manily olive, causing removal of any groundcover growth",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,5,15,10,70,4,16,,,4,16
-40,5,20,12,60,2,24,,,2,24
-60,5,25,15,55,0,31,,,-1,31
+20,5,15,12,70,3,16,,,3,16
+40,5,20,15,60,0,23,,,0,23
+60,5,25,20,55,0,28,,,-5,28
 Comment (optional),Progressive removal of competing exotic groundcovers ,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,10,40,25,80,8,42,,,8,42
-40,15,50,45,75,9,51,,,9,51
-60,15,65,60,75,6,55,,,6,66
+20,10,50,35,80,7,52,,,7,52
+40,15,55,55,75,7,55,,,7,55
+60,15,60,60,75,6,55,,,6,60
 Comment (optional),Allows for complete removal of exotic groundcovers in a best case scenario - and given ongoing high intensity over 60 years then similar result in best estimate,,,,,,,,,

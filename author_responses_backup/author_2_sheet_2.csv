@@ -1,0 +1,30 @@
+Tree Richness - Low site quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark Richness,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+5,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),6,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,2,1,95,0,2,,,0,2
+20,0,2,1,90,0,2,,,0,2
+40,0,3,1.5,80,0,3,,,0,3
+60,0,4,2,70,0,5,,,-1,5
+Comment (optional),"probability of some opportunist (acacia) recruitment, also some dieback of existing loners",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,2,1,95,0,2,,,0,2
+20,0,3,1,90,0,3,,,0,3
+40,1,4,2,80,1,4,,,1,4
+60,2,5,3,70,2,6,,,2,6
+Comment (optional),removal of grazing allows volunteer recruitment from eucs with seed source and acacias,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,2,1,95,0,2,,,0,2
+20,3,6,4,90,3,6,,,3,6
+40,3,6,4,80,3,6,,,3,6
+60,2,6,5,70,1,6,,,1,6
+Comment (optional),"worst case - few spp planted and not all persist; most commonly modest diversity planted and nearly all survive, some supplementary planting after 40 yrs. Even with generously diverse plantings, 6 spp/plot is reasonable upper bound",,,,,,,,,

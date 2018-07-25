@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,c,70,40,95,#VALUE!,55,,,#VALUE!,68
+40,12.5,70,40,90,13,55,,,13,70
+60,12.5,70,40,80,9,55,,,9,74
+Comment (optional),,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,12.5,70,45,95,14,55,,,14,69
+40,10,70,47.5,90,10,55,,,10,70
+60,7.5,70,50,80,2,55,,,2,73
+Comment (optional),,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,15,70,50,95,17,55,,,17,69
+40,20,75,55,90,20,55,,,20,75
+60,25,75,60,80,21,55,,,21,77
+Comment (optional),,,,,,,,,,

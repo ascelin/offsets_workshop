@@ -1,0 +1,30 @@
+Grass & grass-like richness - Medium quality 1 (Ground Cover),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,7,12,9,95,7,12,,,7,12
+20,5,12,7,90,5,12,,,5,12
+40,4,11,6,85,4,11,,,4,11
+60,3,8,5,80,3,8,,,3,8
+Comment (optional),"In the absence of positive management, very likely that natives will decline and weeds become more dominant",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,7,12,9,95,7,12,,,7,12
+20,8,14,10,90,8,14,,,8,14
+40,9,15,11,85,9,15,,,9,15
+60,9,16,12,80,9,17,,,9,17
+Comment (optional),"Introducion of some management, and esp. burning and weed control, likely to increase gras diversity ",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,7,12,9,95,7,12,,,7,12
+20,9,18,11,90,9,18,,,9,18
+40,10,20,14,85,10,20,,,10,20
+60,12,18,15,80,12,18,,,12,18
+Comment (optional),"Positive management may include reintroductions, but numbers likely to relax a little over long-term.",,,,,,,,,

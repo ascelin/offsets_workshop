@@ -7,9 +7,9 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,1,4,3,95,1,4,,,1,4
 20,1,4,3,90,1,4,,,1,4
-40,2,4,3,80,2,4,,,2,4
-60,2,5,4,70,1,5,,,1,5
-Comment (optional),"""locked stand"" entry of new spp largely prevented by dense canopy & grazing some chance of stochastic colonisation in future",,,,,,,,,
+40,1,4,3,80,1,4,,,1,4
+60,1.5,5,4,70,1,5,,,1,5
+Comment (optional),"""locked stand"" entry of new spp largely prevented by dense canopy or transformers & grazing some chance of stochastic colonisation in future, sepcially as stand structure opens >40yrs",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
@@ -17,7 +17,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,1,4,3,95,1,4,,,1,4
 20,2,4,3.5,90,2,4,,,2,4
 40,3,5,4,80,3,5,,,3,5
-60,3,6,4,70,3,6,,,3,7
+60,3,6,4.5,70,3,6,,,3,6
 Comment (optional),partial removal of olive allows some colonisation by bird dispersal,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,4,7,5,90,4,6,,,4,7
 40,4,7,5,80,4,6,,,4,7
 60,4,6,4.5,70,4,6,,,4,6
-Comment (optional),"planting should restore diversity, overplanting and some attition are risks",,,,,,,,,
+Comment (optional),"planting should restore diversity, overplanting and some attition are risks, but worst case is tat pkanting fail to survive",,,,,,,,,

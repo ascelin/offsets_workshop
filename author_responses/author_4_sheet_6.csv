@@ -16,8 +16,8 @@ Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
 20,2,7,4,80,2,7,,,2,7
-40,3,8,5,70,2,9,,,2,9
-60,4,9,6,60,3,11,,,3,11
+40,3,8,5.2,70,2,9,,,2,9
+60,4,9,5.5,60,3,11,,,3,11
 Comment (optional),likely to have grasses disperse around a site so plots will gain species slowly,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -25,6 +25,6 @@ Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
 20,5,12,9,80,5,12,,,5,12
-40,5,12,8,70,4,13,,,4,13
-60,5,12,9,60,3,14,,,3,14
+40,5,12,8.5,70,4,13,,,4,13
+60,5,12,8.2,60,3,14,,,3,14
 Comment (optional),"decrese happens as canopy mgt (planting, maturing) leads to a change in GG species composition which then increases again as canopy matures. Initial burst of persistent species from change in conditions (mix of open and canopy shading)",,,,,,,,,

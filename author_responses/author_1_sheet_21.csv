@@ -15,9 +15,9 @@ Comment (optional),,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,4,20,12.5,95,4,20,,,4,20
-40,3,25,15,90,3,25,,,3,25
-60,2,30,17.5,80,0,32,,,0,32
+20,4,20,15,95,5,20,,,5,20
+40,3,25,17.5,90,3,25,,,3,25
+60,2,30,20,80,0,31,,,0,31
 Comment (optional),,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,

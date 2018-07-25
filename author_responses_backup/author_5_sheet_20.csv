@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,10,55,35,90,10,55,,,10,55
+40,5,45,30,85,4,46,,,4,46
+60,5,40,20,80,3,43,,,3,43
+Comment (optional),"Native grass cover likely to decline under typical 'benign' private management (over-grazing, lack of fire), and even more if agriculture practised",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,25,75,45,90,25,55,,,25,75
+40,30,80,50,85,29,55,,,29,82
+60,35,80,55,80,33,55,,,33,83
+Comment (optional),"Introduction of fire and some weed control likely to increase covver of native grasses, with major issue being whether transformative weeds (Love Grass) prevent native re-establishment",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,15,65,40,95,16,55,,,16,64
+20,40,75,55,,,,,,,
+40,50,80,60,,,,,,,
+60,55,75,65,,,,,,,
+Comment (optional),"High-intensity management will deal with Love Grass, and introduction of fire and weed control will allow native grasses to thrive - responsive management will also increase balance of herbs cf to  grasses ",,,,,,,,,

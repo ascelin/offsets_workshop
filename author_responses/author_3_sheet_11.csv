@@ -6,7 +6,7 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,6,15,9,80,6,16,,,6,16
+20,2,15,9,80,1,16,,,1,16
 40,2,12,8,65,0,14,,,0,14
 60,2,10,5,55,0,13,,,0,13
 Comment (optional),Trends to low quality state ,,,,,,,,,
@@ -15,9 +15,9 @@ Comment (optional),Trends to low quality state ,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,12,20,15,70,11,21,,,11,21
-40,12,20,16,60,10,22,,,10,22
-60,12,20,16,50,9,23,,,9,23
+20,9,20,15,70,7,21,,,7,21
+40,9,19,16,60,6,21,,,6,21
+60,9,19,16,50,3,21,,,3,21
 Comment (optional),The site already has some diversity so any work will provide some rebound that should be easy to maintain with ongoing management. Vectors for new species is likely to reduce after development occurs so any new species likely to show up in first 20 years.,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -26,5 +26,5 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,8,15,11,95,8,15,,,8,15
 20,12,25,20,80,11,25,,,11,26
 40,12,25,20,70,10,25,,,10,26
-60,12,25,20,60,8,25,,,8,28
+60,12,22,18,60,9,24,,,9,24
 Comment (optional),As for low intensity management but opportunity to add from available supplies,,,,,,,,,

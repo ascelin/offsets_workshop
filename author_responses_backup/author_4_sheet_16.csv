@@ -1,0 +1,30 @@
+Tree cover - Medium quality 1 (ground cover),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,0,5,3,70,0,6,,,-1,6
+40,0,5,3,60,0,6,,,-2,6
+60,0,5,3,50,0,7,,,-2,7
+Comment (optional),"Likely to remain at similar cover percentage, but confidence decreases to reflect uncertainty",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,0,6,4,80,0,6,,,-1,6
+40,0,7,5,70,0,8,,,-1,8
+60,1,10,7,60,0,12,,,-2,12
+Comment (optional),Will see a slow increase in tree cover under mgt,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,3,95,0,5,,,0,5
+20,5,40,15,80,4,43,,,4,43
+40,5,60,40,70,0,65,,,-5,66
+60,5,50,30,60,0,60,,,-8,60
+Comment (optional),Canopy planting makes for a rapid increase in cover. Highest density likely to occur at 40 y with crown maturation before self thinning occurs,,,,,,,,,

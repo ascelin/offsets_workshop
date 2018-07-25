@@ -6,10 +6,10 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
-20,2,6,3,90,2,6,,,2,6
-40,2,6,3,80,2,6,,,2,6
-60,2,6,3,65,2,7,,,2,7
-Comment (optional),Benign neglect assumed the land is not developed or altered (market gardens). So status quo of what has survived the last 50 years likely to be robust to continue ,,,,,,,,,
+20,1,6,2,90,1,6,,,1,6
+40,1,6,2,80,1,7,,,1,7
+60,1,6,1,65,1,8,,,1,8
+Comment (optional),Upper bound is benign neglect assumed the land is not developed or altered (market gardens). So status quo of what has survived the last 50 years likely to be robust to continue. Lower is heavier impacts ,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
@@ -18,7 +18,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,2,6,3,90,2,6,,,2,6
 40,2,7,4,80,2,7,,,2,7
 60,2,8,5,65,1,9,,,1,9
-Comment (optional),"With removal of high ly competitive weeds, upper limit may move but dependent on vectors to supply new species. These vectors will be limited as surrounding development occurs",,,,,,,,,
+Comment (optional),"With removal of highly competitive weeds, upper limit may move but dependent on vectors to supply new species. These vectors will be limited as surrounding development occurs",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,12,20,16,80,12,21,,,12,21
 40,12,20,15,65,11,22,,,11,22
 60,12,20,14,50,10,25,,,10,25
-Comment (optional),Range of new species added dependent on seed availability. Results evedent by year 20 then best estimate reduction as site matures and natural niches occur,,,,,,,,,
+Comment (optional),Range of new species added dependent on seed availability. Results evident by year 20 then best estimate reduction as site matures and natural niches occur,,,,,,,,,

@@ -6,9 +6,9 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,15,65,40,95,16,55,,,16,64
-20,10,60,35,65,0,55,,,0,70
+20,5,60,35,65,0,55,,,-7,70
 40,5,50,35,55,0,55,,,-14,60
-60,5,50,35,50,0,55,,,-19,62
+60,5,50,33,50,0,55,,,-17,64
 Comment (optional),Likely incursions of structiural changing weeds in lower bound - olive,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,

@@ -1,11 +1,11 @@
 Grass & grass-like cover - Medium quality 1 (ground cover),,,,,,,,,,
 Benchmark cover: to be elicited,,,,,,,,,,
 Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
-,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
 ,,,,,,,,,,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,15,65,40,95,16,55,,,16,64
+0,15,65,40,95,16,64,,,16,64
 20,12,55,30,90,12,55,,,12,55
 40,9,45,25,80,7,48,,,7,48
 60,8,40,22,70,4,45,,,4,45
@@ -14,16 +14,16 @@ Comment (optional),"Native grass cover declines in response to intensification o
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,15,65,40,95,16,55,,,16,64
-20,15,60,35,90,15,55,,,15,60
-40,18,55,32,80,16,55,,,16,58
-60,20,52,30,70,17,55,,,17,58
+0,15,65,40,95,16,64,,,16,64
+20,15,60,38,90,15,60,,,15,60
+40,18,55,36,80,16,57,,,16,57
+60,20,52,34,70,16,57,,,16,57
 Comment (optional),"lower boiund stable or slight increase in response to continuation of mgt regime similar to historic. Upper bound (change from low stocking rate to no livestock may promote slight increase in trees & shrubs at expense of grasses, but should not be major due to limited historic disturbance to soils",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
-0,15,65,40,95,16,55,,,16,64
+0,15,65,40,95,16,64,,,16,64
 20,20,55,35,90,20,55,,,20,55
 40,22,50,32,80,21,52,,,21,52
 60,20,48,30,70,17,53,,,17,53

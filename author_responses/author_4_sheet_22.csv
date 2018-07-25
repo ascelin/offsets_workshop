@@ -6,7 +6,7 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,25,60,40,95,26,55,,,26,59
-20,22,60,39,80,20,55,,,20,63
+20,22,60,38,80,20,55,,,20,63
 40,20,60,37,70,15,55,,,15,67
-60,18,60,34,60,10,55,,,10,73
+60,18,60,36.2,60,9,55,,,9,72
 Comment (optional),May maintain or improve a small amount (under mgt of exotic weed grasses) but more likely to continue to decrease in condition,,,,,,,,,

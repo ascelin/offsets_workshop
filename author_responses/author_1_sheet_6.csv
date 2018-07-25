@@ -9,7 +9,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,2,6,3,95,2,6,,,2,6
 40,2,6,3.5,90,2,6,,,2,6
 60,2,6,3.5,80,2,6,,,2,6
-Comment (optional),,,,,,,,,,
+Comment (optional),"small increase possible, but bounds are wide indicating large range of possible outcomes",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
@@ -18,7 +18,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,2,6,4,95,2,6,,,2,6
 40,2.5,7,4.5,90,3,7,,,3,7
 60,3,8,5,80,3,8,,,3,8
-Comment (optional),,,,,,,,,,
+Comment (optional),"More likliehood of a small increase over time, but still wide bounds ",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,

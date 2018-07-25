@@ -1,6 +1,6 @@
 
 
-ct <- data.frame(
+condition_class_bounds <- data.frame(
 
     'TG.Low'  = c(0,1,2),
     'TG.Med1' = c(1,2,4),
@@ -29,4 +29,4 @@ ct <- data.frame(
 
     ) 
 
-row.names(ct) <- c('lower.bound', 'initial.val', 'upper.bound')
+row.names(condition_class_bounds) <- c('lower.bound', 'initial.val', 'upper.bound')

@@ -17,7 +17,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,10,65,40,95,12,64,,,12,64
 20,10,80,60,80,4,65,,,4,83
 40,10,70,50,70,0,65,,,-1,76
-60,10,65,40,60,0,65,,,-5,78
+60,10,65,45,60,0,65,,,-8,75
 Comment (optional),Cover bounce likely as recruitment happens following weed control but will likely plateau following the 60 year period.,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -26,5 +26,5 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,10,65,40,95,12,64,,,12,64
 20,20,80,70,80,14,65,,,14,81
 40,20,80,60,70,9,65,,,9,86
-60,20,80,50,60,5,65,,,5,95
-Comment (optional),Cover raised by planting then declines as crown matures.,,,,,,,,,
+60,20,80,55,60,3,65,,,3,93
+Comment (optional),Cover raised by planting (often a density much higher than useful but including many wattles) then declines as eucalypt crown matures and wattles die off.,,,,,,,,,

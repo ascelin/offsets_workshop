@@ -7,8 +7,8 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,9,5,95,3,9,,,3,9
 20,3,9,5,70,2,10,,,2,10
-40,2,9,4,60,1,12,,,1,12
-60,2,7,3,50,1,10,,,1,10
+40,2,9,4.2,60,1,11,,,1,11
+60,2,7,3.8,50,1,10,,,1,10
 Comment (optional),Likely to see a continual decline as species are shaded out and groundcover cannot establish in olive-affected lands (allelopathic),,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -16,15 +16,15 @@ Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,9,5,95,3,9,,,3,9
 20,3,15,10,80,2,16,,,2,16
-40,5,15,11,70,3,16,,,3,16
-60,7,18,15,60,3,20,,,3,20
+40,5,15,12.5,70,3,16,,,3,16
+60,7,18,13.5,60,4,20,,,4,20
 Comment (optional),"Control of olives leads to a rapid response of species, including many annuals and this is residual for some time although native canopy thickening and recruitment leads to a shading again and change in taxa mix",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,9,5,100,3,9,,,3,9
-20,10,20,15,80,9,21,,,9,21
-40,10,20,17,70,8,21,,,8,21
-60,12,25,20,60,8,25,,,8,28
+20,10,20,16,80,9,21,,,9,21
+40,10,20,17.2,70,8,21,,,8,21
+60,12,25,18,60,9,25,,,9,29
 Comment (optional),"Likely to see a rapid gain from olive mgt and planting of diversity, briefly plateauing until shade tolerant species immigrate from refugia",,,,,,,,,

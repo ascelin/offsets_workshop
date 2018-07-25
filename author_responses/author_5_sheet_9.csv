@@ -6,7 +6,7 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,20,12,95,8,20,,,8,20
-20,7,19,11,90,7,19,,,7,19
-40,5,18,10,85,5,18,,,5,18
-60,4,16,9,80,3,17,,,3,17
-Comment (optional),"Again, a wide range in provate land management, but I would expect a gradual decline without active management of some type",,,,,,,,,
+20,7,19,10,90,7,19,,,7,19
+40,5,18,9,85,5,19,,,5,19
+60,4,15,8,80,4,16,,,4,16
+Comment (optional),"Again, a wide range in private land management, but I would expect a gradual decline without active management of some type",,,,,,,,,

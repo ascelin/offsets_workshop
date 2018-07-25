@@ -18,13 +18,13 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,4,13,9,90,4,13,,,4,13
 40,5,13,9,80,5,14,,,5,14
 60,5,13,9,70,4,14,,,4,14
-Comment (optional),"initial improvement with grazing removal, hits restoration barrier",,,,,,,,,
+Comment (optional),"initial improvement with grazing removal, hits restoration barrier (mainly dspersal)",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,9,5,100,3,9,,,3,9
-20,12,20,16,90,12,20,,,12,20
-40,11,18,15,80,11,18,,,11,18
-60,10,16,14,70,9,17,,,9,17
+20,12,18,15,90,12,18,,,12,18
+40,11,17,14,80,11,17,,,11,17
+60,10,16,12,70,9,17,,,9,17
 Comment (optional),initial increase due to planting not sustainable as eucs increase,,,,,,,,,

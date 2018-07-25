@@ -7,24 +7,24 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
 20,5,15,10,70,4,16,,,4,16
-40,5,15,8,60,4,19,,,4,19
-60,5,15,7,50,3,21,,,3,21
+40,5,15,8.2,60,3,18,,,3,18
+60,5,15,7.5,50,3,21,,,3,21
 Comment (optional),Gradual decline of grasses under general management,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,5,30,20,80,3,31,,,3,31
+20,5,30,30,80,2,30,,,2,30
 40,5,50,35,70,0,54,,,-4,54
-60,5,60,40,60,0,55,,,-13,70
+60,5,60,37,60,0,55,,,-11,72
 Comment (optional),Grass cover will increase under mgt then plateau as tree cover shades out further increase,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
-20,10,40,30,80,8,41,,,8,41
-40,15,60,40,70,8,55,,,8,66
-60,15,60,45,60,0,55,,,0,68
+20,10,50,40,80,6,51,,,6,51
+40,15,60,43,70,7,55,,,7,65
+60,15,60,44.2,60,0,55,,,0,68
 Comment (optional),cover plateauing as canopy crowns,,,,,,,,,

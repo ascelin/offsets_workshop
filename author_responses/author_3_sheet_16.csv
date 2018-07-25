@@ -6,9 +6,9 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
-20,1,10,5,65,0,12,,,-1,12
-40,2,15,5,55,0,21,,,0,21
-60,2,20,5,50,0,32,,,0,32
+20,0,12,5,65,0,15,,,-2,15
+40,0,15,5,55,0,21,,,-3,21
+60,0,15,5,50,0,23,,,-4,23
 Comment (optional),As for TG Low,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -16,15 +16,15 @@ Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
 20,2,10,5,65,1,12,,,1,12
-40,5,20,8,55,3,28,,,3,28
-60,10,40,10,50,10,64,,,10,64
+40,8,20,12,55,5,25,,,5,25
+60,10,30,15,50,6,42,,,6,42
 Comment (optional),As for TG Low,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
-20,10,20,18,65,7,21,,,7,21
-40,15,40,35,55,2,43,,,2,43
-60,20,60,50,50,0,65,,,-4,68
+20,5,40,18,65,0,48,,,0,48
+40,10,45,40,55,0,48,,,-9,48
+60,12,60,50,50,0,65,,,-18,68
 Comment (optional),As for TG Low,,,,,,,,,

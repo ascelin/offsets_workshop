@@ -1,0 +1,30 @@
+Forb richness - Medium quality 1 (Ground Cover),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,8,15,10,70,7,16,,,7,16
+40,7,12,8,60,7,14,,,7,14
+60,6,11,7,50,5,14,,,5,14
+Comment (optional),Likely to see a general decline in species as a result of mt trends (persistent tussock is the more likely occurrence),,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,8,17,12,80,8,18,,,8,18
+40,9,18,14,70,8,19,,,8,19
+60,10,22,15,60,8,25,,,8,26
+Comment (optional),Likely to see a general improvement from sward mgt and strategic grazing,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,8,15,11,95,8,15,,,8,15
+20,15,30,25,80,14,25,,,14,31
+40,15,30,23,70,13,25,,,13,32
+60,15,30,26,60,10,25,,,10,32
+Comment (optional),Likely to see a rapid gain following commencing site mgt (planting) and then a drop as canopy shading matures and species composition changes from sun tolerant to shade tolerant,,,,,,,,,

@@ -6,10 +6,10 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
-20,1,4,2,95,1,4,,,1,4
-40,1,5,4,80,1,5,,,1,5
-60,2,6,4,70,1,7,,,1,7
-Comment (optional),,,,,,,,,,
+20,1,4,2,80,1,4,,,1,4
+40,1,5,4,50,0,6,,,-1,6
+60,2,6,4,40,0,9,,,-1,9
+Comment (optional),"Limted actions, disturbed yet stable species richness as a result",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
@@ -18,7 +18,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,8,15,10,80,8,16,,,8,16
 40,8,15,10,60,7,18,,,7,18
 60,10,15,12,50,8,17,,,8,17
-Comment (optional),,,,,,,,,,
+Comment (optional),Slow recruitment providing stable species richness numbers,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,10,15,8,80,6,16,,,6,16
 40,10,20,15,60,8,20,,,8,23
 60,10,20,15,50,6,20,,,6,24
-Comment (optional),,,,,,,,,,
+Comment (optional),Supp seeding of additional species to increase diversity ,,,,,,,,,

@@ -6,25 +6,25 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,7,16,10,90,7,16,,,7,16
-40,6,15,9,85,6,15,,,6,15
+20,7,16,9,90,7,16,,,7,16
+40,6,15,8,85,6,15,,,6,15
 60,5,14,8,75,4,15,,,4,15
-Comment (optional),"In the absence of positive managment, I would expect some decline in diversity.",,,,,,,,,
+Comment (optional),"In the absence of positive management, I would expect some decline in diversity.",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,10,16,12,95,10,16,,,10,16
-40,12,18,14,90,12,18,,,12,18
+20,10,17,13,95,10,17,,,10,17
+40,12,19,14,90,12,19,,,12,19
 60,12,20,15,85,12,20,,,12,20
-Comment (optional),"Introduction of some management, and particularly fire and weed, will be likely to increase forb diversity a bit ",,,,,,,,,
+Comment (optional),"Introduction of some management, and particularly burning and weed control, will be likely to increase forb diversity a bit ",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
 20,10,30,16,90,10,25,,,10,30
-40,12,25,16,85,12,25,,,12,26
-60,14,25,16,80,14,25,,,14,26
+40,12,25,17,85,12,25,,,12,25
+60,14,25,18,80,14,25,,,14,26
 Comment (optional),"Active management will include re-introduction of forbs, and is likely to lead to a slightlly inflated diversity compared to natural situation",,,,,,,,,

@@ -15,16 +15,16 @@ Comment (optional),Following trend of past 50 years of sites left in benign negl
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,2,95,0,5,,,0,5
-20,2,10,6,60,0,12,,,0,12
-40,4,20,12,60,0,24,,,0,24
-60,6,40,18,55,0,54,,,-2,54
+20,2,15,6,60,0,20,,,0,20
+40,4,18,12,60,0,21,,,0,21
+60,4,20,12,55,0,25,,,-1,25
 Comment (optional),Growth and recruitment of canopy trees already in situ,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,2,95,0,5,,,0,5
-20,10,20,18,80,9,20,,,9,20
+20,10,35,18,80,9,37,,,9,37
 40,15,40,35,70,9,41,,,9,41
 60,20,60,50,65,8,64,,,8,64
 Comment (optional),Mass planting and management provides the ability to engineer this outcome. Trees are the easy win on a site that is protected and can be managed,,,,,,,,,

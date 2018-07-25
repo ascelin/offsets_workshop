@@ -9,4 +9,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,35,70,50,80,33,65,,,33,73
 40,30,65,50,60,20,65,,,20,73
 60,30,65,50,50,14,65,,,14,77
-Comment (optional),,,,,,,,,,
+Comment (optional),"Large tree retension, some natural recruitment, stable cover generated ",,,,,,,,,

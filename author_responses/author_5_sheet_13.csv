@@ -6,7 +6,7 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,12,25,15,95,12,24,,,12,24
-20,10,25,14,90,10,25,,,10,25
-40,8,25,13,85,8,25,,,8,26
-60,7,25,12,80,6,25,,,6,27
+20,10,24,14,90,10,24,,,10,24
+40,8,23,13,85,8,24,,,8,24
+60,7,22,12,80,6,23,,,6,23
 Comment (optional),"Again, a wide range of management, but gradual decline in diversity is likely without some conscious manamgement actions being taken to prevent decline  ",,,,,,,,,

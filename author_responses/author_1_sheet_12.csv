@@ -15,10 +15,10 @@ Comment (optional),,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,9,5,95,3,9,,,3,9
-20,2,9,4.5,95,2,9,,,2,9
-40,2,8,3,90,2,8,,,2,8
-60,1,7,2,80,1,8,,,1,8
-Comment (optional),,,,,,,,,,
+20,2,9,5.5,95,2,9,,,2,9
+40,2,10,6,90,2,10,,,2,10
+60,1,10,6.5,80,0,10,,,0,10
+Comment (optional),small increase in response to some weed control,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,5,11,8,95,5,11,,,5,11
 40,7,12,10,90,7,12,,,7,12
 60,9,15,12,80,9,15,,,9,15
-Comment (optional),,,,,,,,,,
+Comment (optional),larger increase with high intensity management,,,,,,,,,

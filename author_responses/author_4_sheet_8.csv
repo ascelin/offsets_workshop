@@ -15,16 +15,16 @@ Comment (optional),Likely to keep losing species under a dense olive canopy as d
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,4,12,6,80,4,13,,,4,13
+20,4,12,6.5,80,4,13,,,4,13
 40,5,15,8,70,4,17,,,4,17
-60,8,15,10,60,7,18,,,7,18
+60,8,15,9,60,8,18,,,8,18
 Comment (optional),"Removal of olives tends to result in an immediate diversity response (increased light, germination from soil seedbank) and then more taxa immigrate from refugia nearby over time",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,10,20,10,80,10,20,,,10,21
-40,10,20,12,70,9,20,,,9,22
-60,8,20,15,60,5,20,,,5,23
+20,10,20,11.2,80,10,20,,,10,21
+40,10,20,12.4,70,9,20,,,9,22
+60,8,20,13.2,60,5,20,,,5,23
 Comment (optional),Likely to have a diverse planting initially and then later immigration of other taxa from refugia,,,,,,,,,

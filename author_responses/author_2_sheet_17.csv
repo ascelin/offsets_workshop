@@ -1,14 +1,14 @@
 Tree cover - Medium quality 2 (Canopy),,,,,,,,,,
 Benchmark cover: to be elicited,,,,,,,,,,
 Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
-,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),70,,,
 ,,,,,,,,,,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,10,65,40,95,12,64,,,12,64
 20,9,65,40,90,9,65,,,9,65
-40,8,65,38,80,4,65,,,4,68
-60,7,65,36,70,0,65,,,-1,73
+40,8,65,38,80,4,68,,,4,68
+60,7,65,36,70,0,70,,,-1,73
 Comment (optional),"native canopy gradually replaced by olive in lower bound, locked stand in upper bound",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,20,65,40,90,20,65,,,20,65
 40,25,60,38,80,23,63,,,23,63
 60,25,55,35,70,22,61,,,22,61
-Comment (optional),"olive control generates euc increase in lower bound, eucs gradually thin in upper bound",,,,,,,,,
+Comment (optional),"euc increase in lower bound, eucs gradually thin (or are actively thinnied) in upper bound as 40% cover may not be sustainable over 60 yrs and intensive mgt might involve thinning",,,,,,,,,

@@ -1,0 +1,30 @@
+Grass & grass-like richness - Medium quality 2 (Canopy),,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+12,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),20,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,2,8,4,90,2,8,,,2,8
+40,2,7,4,85,2,7,,,2,7
+60,1,7,3,80,1,8,,,1,8
+Comment (optional),"Gradual decline, but these species are already fairly resilient, so deccline is small",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,3,9,5,90,3,9,,,3,9
+40,3,10,5,85,3,10,,,3,10
+60,3,11,5,80,3,12,,,3,12
+Comment (optional),"Introduction of some mannagement (e.g. fire) may have small imcrease in opportunities for recruitment, but low intensity managment will not address major issue (e.g. olives)",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,3,8,4,95,3,8,,,3,8
+20,6,16,10,90,6,16,,,6,16
+40,8,20,12,85,8,20,,,8,20
+60,9,18,13,80,9,19,,,9,19
+Comment (optional),"Removal of olives and introduction of natives will increase diversity greatly, but likely to be gradual reduction back to more 'natural' levels",,,,,,,,,

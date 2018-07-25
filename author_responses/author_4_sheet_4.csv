@@ -7,24 +7,24 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,1,4,3,95,1,4,,,1,4
 20,1,4,3,70,0,4,,,0,4
-40,1,3,2,60,1,4,,,1,4
-60,1,2,2,50,0,2,,,0,2
-Comment (optional),,,,,,,,,,
+40,1,3,2.5,60,0,3,,,0,3
+60,1,2,2.2,50,0,3,,,0,3
+Comment (optional),"gradual, long-term decline through senescence",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,1,4,3,95,1,4,,,1,4
 20,2,5,4,80,2,5,,,2,5
-40,2,7,5,70,1,6,,,1,8
-60,3,8,6,60,2,6,,,2,9
-Comment (optional),,,,,,,,,,
+40,2,7,4.8,70,1,6,,,1,8
+60,3,8,5.1,60,2,6,,,2,9
+Comment (optional),slow accretion from local sources,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,1,4,3,95,1,4,,,1,4
 20,5,10,8,80,5,6,,,5,10
-40,5,9,7,70,4,6,,,4,10
+40,5,9,7.2,70,4,6,,,4,10
 60,7,8,7,60,7,6,,,7,9
-Comment (optional),,,,,,,,,,
+Comment (optional),Active planting initially gives big boost. Loss of some diversity as some species may not persist under competition from larger trees,,,,,,,,,

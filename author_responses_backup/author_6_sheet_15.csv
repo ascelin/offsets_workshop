@@ -1,0 +1,30 @@
+Tree cover - Low site quality,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,1,5,1,80,1,6,,,1,6
+40,1,4,2,75,1,4,,,1,4
+60,1,3,1,60,1,4,,,1,4
+Comment (optional),,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,5,15,10,80,4,16,,,4,16
+40,5,20,15,75,3,21,,,3,21
+60,10,30,15,60,8,38,,,8,38
+Comment (optional),,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,0,5,2,95,0,5,,,0,5
+20,5,15,10,80,4,16,,,4,16
+40,10,20,15,75,9,21,,,9,21
+60,10,30,20,60,5,35,,,5,35
+Comment (optional),,,,,,,,,,

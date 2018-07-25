@@ -1,0 +1,30 @@
+Forb richness - Low site quality,,,,,,,,,,
+,,,,,,,,,,
+Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+15,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),25,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,2,9,3,65,2,11,,,2,11
+40,2,8,2,60,2,11,,,2,11
+60,2,6,2,55,2,9,,,2,9
+Comment (optional),"Tough forbs remain - eg, Dichondra",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,6,20,8,70,5,23,,,5,23
+40,6,20,8,65,5,25,,,5,25
+60,6,20,8,55,5,25,,,5,28
+Comment (optional),removal of threats - particularly grazing could get a big rebound. This is the reason for the seemingly high upper bound,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,2,10,5,95,2,10,,,2,10
+20,12,20,18,75,11,20,,,11,20
+40,12,20,18,75,11,20,,,11,20
+60,12,20,18,75,11,20,,,11,20
+Comment (optional),Upper bound depends on available supply - could go higher. Those that are surviving after 20 years following initial reconstruction are likely to remain with ongoing intense management and ignoring climate change,,,,,,,,,

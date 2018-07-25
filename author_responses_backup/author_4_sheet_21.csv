@@ -1,0 +1,30 @@
+Grass & grass-like cover - Medium quality 2 (Canopy),,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,4,15,9,85,4,15,,,4,15
+40,3,15,8,80,2,16,,,2,16
+60,3,14,7,70,2,16,,,2,16
+Comment (optional),groundcover likely dominated by perennial exotic pasture grasses,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: Low intensity management,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,5,20,15,80,4,21,,,4,21
+40,4,25,20,75,1,26,,,1,26
+60,4,28,20,70,0,30,,,-1,30
+Comment (optional),gradual increase with mgt of certain weed species but no high-intensity effort to manage for native dominance,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Management scenario: High intensity management ,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,5,15,10,95,5,15,,,5,15
+20,5,40,25,80,3,42,,,3,42
+40,8,50,30,75,4,54,,,4,54
+60,10,55,35,70,3,55,,,3,61
+Comment (optional),targeted effort to manage exotic competiive grassses,,,,,,,,,

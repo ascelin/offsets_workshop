@@ -9,22 +9,22 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,2,6,4,95,2,6,,,2,6
 40,1,5,3,80,1,5,,,1,5
 60,1,5,3,80,1,5,,,1,5
-Comment (optional),,,,,,,,,,
+Comment (optional),Reduction is species richness as a result of limited actions,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
-20,3,12,7,95,3,12,,,3,12
-40,6,15,8,80,6,16,,,6,16
-60,6,14,8,75,6,15,,,6,15
-Comment (optional),,,,,,,,,,
+20,3,10,7,80,3,10,,,3,10
+40,6,11,8,60,5,13,,,5,13
+60,6,13,8,40,4,19,,,4,19
+Comment (optional),Increase as a result of miminal land management practices. Slight increase to stable species number,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
-20,6,15,10,95,6,15,,,6,15
-40,8,12,9,85,8,12,,,8,12
-60,8,15,10,75,8,16,,,8,16
+20,6,15,10,80,6,16,,,6,16
+40,8,12,9,60,8,14,,,8,14
+60,8,15,10,40,6,21,,,6,21
 Comment (optional),,,,,,,,,,

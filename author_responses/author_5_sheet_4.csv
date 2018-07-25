@@ -26,5 +26,5 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,1,4,3,95,1,4,,,1,4
 20,3,6,4,90,3,6,,,3,6
 40,4,6,5,85,4,6,,,4,6
-60,3,6,4,80,3,6,,,3,6
+60,3,5,4,80,3,5,,,3,5
 Comment (optional),"Intervention to remove weeds (olive) and add more fire imrproves recruitment, but diverse planting not required due to exiisting canopy - giving pulse of (e.g.) Acacia recruitment which is likely to gradually settle out over time",,,,,,,,,

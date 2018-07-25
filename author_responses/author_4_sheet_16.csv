@@ -24,7 +24,7 @@ Comment (optional),Will see a slow increase in tree cover under mgt,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,0,5,3,95,0,5,,,0,5
-20,5,40,15,80,4,43,,,4,43
+20,5,40,30,80,2,41,,,2,41
 40,5,60,40,70,0,65,,,-5,66
-60,5,50,30,60,0,60,,,-8,60
+60,5,50,38,60,0,56,,,-12,56
 Comment (optional),Canopy planting makes for a rapid increase in cover. Highest density likely to occur at 40 y with crown maturation before self thinning occurs,,,,,,,,,

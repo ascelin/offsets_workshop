@@ -6,25 +6,25 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,3,8,4,65,3,10,,,3,10
-40,3,8,4,65,3,10,,,3,10
-60,3,7,4,65,3,8,,,3,8
+20,1,8,3,65,0,10,,,0,10
+40,1,8,3,65,0,10,,,0,10
+60,1,7,2,65,1,9,,,1,9
 Comment (optional),,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,6,12,8,65,5,14,,,5,14
-40,8,16,9,65,8,19,,,8,19
-60,9,20,11,65,8,23,,,8,23
-Comment (optional),Progressive removal of structure changing threats with continued management assumes that site has resilience and threat has largely been structural changing weeds,,,,,,,,,
+20,4,12,8,65,2,14,,,2,14
+40,4,16,9,65,2,19,,,2,19
+60,4,16,11,65,1,18,,,1,18
+Comment (optional),Progressive removal of structure changing threats with continued management however underlying soil qualities means competing groundcover weeds persist,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,10,25,15,75,9,27,,,9,27
-40,10,25,15,70,9,28,,,9,28
-60,10,20,15,65,8,22,,,8,22
+20,10,20,15,75,9,21,,,9,21
+40,10,20,15,70,9,21,,,9,21
+60,10,18,14,65,8,20,,,8,20
 Comment (optional),As for low intensity management with additional species dispersed through management activities,,,,,,,,,

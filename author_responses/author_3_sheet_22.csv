@@ -6,7 +6,7 @@ Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% 
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,25,60,40,95,26,55,,,26,59
-20,10,50,30,65,2,55,,,2,58
-40,5,40,25,55,0,50,,,-8,50
-60,2,30,20,50,0,38,,,-12,38
+20,5,50,30,65,0,55,,,-5,58
+40,5,40,20,55,0,53,,,-5,53
+60,2,30,15,50,0,42,,,-8,42
 Comment (optional),High quality site with benign neglect will be over run by Olive over 60 years. The alternate is that it has had grazing to limit Olive growth so the cover reduces anyway.,,,,,,,,,

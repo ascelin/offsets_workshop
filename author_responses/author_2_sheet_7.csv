@@ -18,7 +18,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,7,12,9,90,7,12,,,7,12
 40,7,13,9.5,80,7,13,,,7,13
 60,7,13,10,70,6,14,,,6,14
-Comment (optional),maintains diversity or slight improvement due to continuation of mgt similar to historic,,,,,,,,,
+Comment (optional),maintains diversity (worst case) or slight improvement due to continuation of mgt similar to historic,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,10,18,13,90,10,18,,,10,18
 40,9,16,11,70,8,17,,,8,17
 60,9,14,11,70,8,15,,,8,15
-Comment (optional),Initial enhancement not sustainable as trees increase in cover,,,,,,,,,
+Comment (optional),Initial enhancement not sustainable as trees increase in cover. Further plantings in decades hence also struggle to persist for same reason,,,,,,,,,

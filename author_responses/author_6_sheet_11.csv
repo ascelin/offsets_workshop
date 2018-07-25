@@ -6,25 +6,25 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,7,12,9,95,7,12,,,7,12
-40,6,12,8,80,6,13,,,6,13
-60,6,10,8,70,5,11,,,5,11
-Comment (optional),,,,,,,,,,
+20,7,12,9,80,7,12,,,7,12
+40,6,12,8,60,5,14,,,5,14
+60,6,10,8,40,4,13,,,4,13
+Comment (optional),Reduction as a result regular practices ,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,9,17,10,95,9,17,,,9,17
-40,10,16,9,80,8,17,,,8,17
-60,8,14,10,75,8,15,,,8,15
+20,9,16,10,80,9,17,,,9,17
+40,10,16,9,60,8,20,,,8,20
+60,8,16,10,40,6,24,,,6,24
 Comment (optional),,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,15,11,95,8,15,,,8,15
-20,10,18,15,95,10,18,,,10,18
-40,9,15,12,75,8,16,,,8,16
-60,10,15,12,50,8,17,,,8,17
+20,10,18,15,80,9,18,,,9,18
+40,9,15,12,60,8,17,,,8,17
+60,10,15,12,40,8,19,,,8,19
 Comment (optional),,,,,,,,,,

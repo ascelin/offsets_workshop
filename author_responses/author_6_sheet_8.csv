@@ -6,25 +6,25 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,2,6,3,95,2,6,,,2,6
-40,3,6,4,80,3,6,,,3,6
-60,2,5,3,75,2,5,,,2,5
-Comment (optional),,,,,,,,,,
+20,2,6,3,80,2,6,,,2,6
+40,3,6,4,60,3,7,,,3,7
+60,2,5,3,40,1,8,,,1,8
+Comment (optional),"slight increase as a result of minor weed control and stock movement, loss in diversity and stable species richness ",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,5,10,8,95,5,10,,,5,10
-40,6,12,10,80,6,12,,,6,12
-60,6,13,12,80,5,13,,,5,13
-Comment (optional),,,,,,,,,,
+20,5,10,8,80,5,10,,,5,10
+40,6,12,10,60,4,13,,,4,13
+60,6,13,12,40,0,14,,,-2,14
+Comment (optional),"minor weed control activities, reduced stock presssure",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,3,8,4,95,3,8,,,3,8
-20,6,14,12,95,6,14,,,6,14
-40,8,12,10,80,8,12,,,8,12
-60,8,15,10,80,8,16,,,8,16
-Comment (optional),,,,,,,,,,
+20,6,14,12,80,5,14,,,5,14
+40,8,12,10,60,7,13,,,7,13
+60,8,15,10,40,6,20,,,6,21
+Comment (optional),"Installation of exclusion fencing, reduced stock pressure, some direct seeding to increase diversity. ",,,,,,,,,

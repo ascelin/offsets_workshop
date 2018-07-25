@@ -18,7 +18,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,4,13,7,,,,,,,
 40,4,13,7,,,,,,,
 60,4,13,7,,,,,,,
-Comment (optional),"marginal increase with grazing removal, but largey stable thereafter - legacy",,,,,,,,,
+Comment (optional),"marginal increase with grazing removal, but largey stable thereafter - persistent legacy effects limit mgt impact",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,12,20,15,90,12,20,,,12,20
 40,12,18,14,80,12,19,,,12,19
 60,11,16,13,70,10,17,,,10,17
-Comment (optional),"increase with planting but not sustainable as eucs increase, stochastic losses occur",,,,,,,,,
+Comment (optional),"increase with planting but not sustainable as euc cover increases, stochastic losses occur",,,,,,,,,

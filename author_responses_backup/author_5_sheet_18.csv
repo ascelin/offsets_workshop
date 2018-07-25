@@ -1,0 +1,12 @@
+Tree cover - High,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated)    ,65,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,35,70,52,100,37,65,,,37,68
+20,30,70,50,95,31,65,,,31,69
+40,27,65,48,85,26,65,,,26,66
+60,25,60,45,70,19,64,,,19,64
+Comment (optional),"Typical private land management of a high-quality remnant is likely to lead to some deterioration in tree health and cover over time, but counter-acted to some degree by natural tree recruitment and resilience",,,,,,,,,

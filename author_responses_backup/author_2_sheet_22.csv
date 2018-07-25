@@ -1,0 +1,12 @@
+Grass & grass-like cover - High quality,,,,,,,,,,
+Benchmark cover: to be elicited,,,,,,,,,,
+Benchmark cover,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,90% CI (LB),90% CI (UB),Uppermost Bound,,,
+,Indicate the lowest realistic value for each time step,Indicate the highest realistic value for each time step,Provide your best estimate of the value for each time step,"How confident are you that your interval, from lowest to highest, would capture the true value)",90% upper confidence interval (automatically caculated),90% lower confidence interval (automatically caculated),55,,,
+,,,,,,,,,,
+Management scenario: Typical private land activities,,,,,,,,,,
+Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
+0,25,60,40,95,26,55,,,26,59
+20,10,40,25,90,10,40,,,10,40
+40,5,30,15,80,4,32,,,4,32
+60,4,25,12,70,2,29,,,2,29
+Comment (optional),"Immediate & sustained reduction in grasses due to direct grazing and livestock trampling, incursion of weeds, posibly some fertiliser use when there had been little historically",,,,,,,,,

@@ -9,16 +9,16 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,2,6,3,90,2,6,,,2,6
 40,2,5,2.5,80,2,5,,,2,5
 60,1.5,4.5,2,70,1,5,,,1,5
-Comment (optional),gradual decay,,,,,,,,,
+Comment (optional),"gradual decay, but remaining natives are mostly opportunitists so decline is not massive",,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,6,3,95,2,6,,,2,6
 20,4,10,6,90,4,10,,,4,10
-40,4,11,6,80,4,12,,,4,12
+40,4,11,6.6,80,4,12,,,4,12
 60,4,12,7,70,3,13,,,3,13
-Comment (optional),kick up after olive control but slow colonisation withut active translocation,,,,,,,,,
+Comment (optional),kick up after olive control but slow colonisation without active translocation,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Management scenario: High intensity management ,,,,,,,,,,
@@ -27,4 +27,4 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 20,8,15,12,90,8,15,,,8,15
 40,8,12,10,80,8,12,,,8,12
 60,7,11,10,70,6,11,,,6,11
-Comment (optional),"assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining",,,,,,,,,
+Comment (optional),"assumes lots of planting & intensive weed & nutrient management, doubtfully self-sustaining (only through continued new plantings)",,,,,,,,,

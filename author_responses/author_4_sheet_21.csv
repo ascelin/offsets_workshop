@@ -8,7 +8,7 @@ Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90%
 0,5,15,10,95,5,15,,,5,15
 20,4,15,9,85,4,15,,,4,15
 40,3,15,8,80,2,16,,,2,16
-60,3,14,7,70,2,16,,,2,16
+60,3,14,7.6,70,2,16,,,2,16
 Comment (optional),groundcover likely dominated by perennial exotic pasture grasses,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -25,6 +25,6 @@ Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,5,15,10,95,5,15,,,5,15
 20,5,40,25,80,3,42,,,3,42
-40,8,50,30,75,4,54,,,4,54
+40,8,50,33,75,3,53,,,3,53
 60,10,55,35,70,3,55,,,3,61
 Comment (optional),targeted effort to manage exotic competiive grassses,,,,,,,,,

@@ -6,7 +6,7 @@ Benchmark richness:,Lower Bound,Upper Bound,Best Estimate,Confidence (%) 50-100,
 Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,8,20,12,95,8,20,,,8,20
-20,9,15,11,95,9,15,,,9,15
-40,8,15,10,80,8,16,,,8,16
-60,6,12,10,75,5,12,,,5,12
-Comment (optional),,,,,,,,,,
+20,9,18,11,80,9,19,,,9,19
+40,8,15,10,60,7,18,,,7,18
+60,6,15,10,30,0,20,,,-2,25
+Comment (optional),Only minor weed control activities to control new incursions. Slight reduction as a result of boom/bust of dominant species,,,,,,,,,

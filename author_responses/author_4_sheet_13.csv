@@ -7,6 +7,6 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,12,25,15,95,12,24,,,12,24
 20,12,25,15,70,11,25,,,11,28
-40,11,25,14,60,10,25,,,10,31
-60,10,25,13,50,8,25,,,8,35
+40,11,25,14.2,60,9,25,,,9,30
+60,10,25,13.5,50,7,25,,,7,34
 Comment (optional),"Likely to see a persistent, slow decline from a good starting position as BAU practices see little mgt improvement opportunity",,,,,,,,,

@@ -7,7 +7,7 @@ Management scenario: Typical private land activities,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
 20,2,10,5,70,1,11,,,1,11
-40,2,10,5,60,1,13,,,1,13
+40,2,10,4.3,60,1,13,,,1,13
 60,2,10,4,50,0,15,,,0,15
 Comment (optional),persistence of tolerant or annual forbs,,,,,,,,,
 ,,,,,,,,,,
@@ -15,9 +15,9 @@ Comment (optional),persistence of tolerant or annual forbs,,,,,,,,,
 Management scenario: Low intensity management,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
-20,10,15,12,80,10,15,,,10,15
+20,10,15,12.5,80,10,15,,,10,15
 40,10,18,14,70,9,19,,,9,19
-60,10,20,15,60,8,23,,,8,23
+60,10,20,14.2,60,8,23,,,8,23
 Comment (optional),Likely to see a rapid initial response of plants to management of the groundcover weed through herbicide and fire,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -25,6 +25,6 @@ Management scenario: High intensity management ,,,,,,,,,,
 Year,Lower Bound,Upper Bound,Best Estimate,Confidence 50-100 (%),90% CI (LB),90% CI (UB),,,90% CI (LB) RAW,90% CI (UB) RAW
 0,2,10,5,95,2,10,,,2,10
 20,10,30,18,80,9,25,,,9,32
-40,10,30,18,70,8,25,,,8,33
-60,15,30,20,60,13,25,,,13,35
-Comment (optional),"Likely to see a quick response from diversity planting , plateau as canopy thickening occurs, then gradual increase once canopy matures.",,,,,,,,,
+40,10,30,18.2,70,8,25,,,8,33
+60,15,30,18.3,60,13,25,,,13,36
+Comment (optional),"Likely to see a quick response from diversity planting, plateau as canopy thickening occurs, then gradual increase once canopy matures.",,,,,,,,,
