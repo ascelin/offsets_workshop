@@ -424,11 +424,13 @@ column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confide
 
 calc_y_lims = FALSE
 write_pdf = TRUE
-pull_data = FALSE
+pull_data = TRUE
 plot_selection_type = 'by_plot'
 plot_means = FALSE
 plot_splines = FALSE
 plot_sheets = TRUE
+plot_mean = FALSE
+plot_author = TRUE
 
 #output_pdf_filename = 'CP_elicitation_workshop_1.pdf'
 output_pdf_filename = 'Splines_v2.pdf'
@@ -440,8 +442,8 @@ worksheets_to_collate = c(2:13, 15:22) # what data to work with - Note sheet 1 i
 
 sheet_num = length(worksheets_to_pull)
 
-authors_to_pull = c(6)
-authors_to_plot = 1:6
+authors_to_pull = c(1)
+authors_to_plot = 1
 time_vec_new = 0:100
 fit_type = 'by_mean'
 
@@ -450,8 +452,7 @@ fit_type = 'by_mean'
 # 4 - best estimate
 column_to_use = 4
 plot_sheet_num = length(worksheets_to_collate)
-plot_mean = FALSE
-plot_author = TRUE
+
 
 author_ind = 1
 
@@ -535,7 +536,7 @@ if (calc_y_lims == TRUE){
 }
 
 
-for (author_ind in seq_along(author_names)){
+for (author_ind in authors_to_pull){
     author_spline_fits = fit_splines(data_to_fit = numerical_data_matrix, plot_sheet_num, time_vec, fit_type = 'by_author',  plot_starts, columns_to_use = c(2, 3, 4), author_ind)
     saveRDS(object = author_spline_fits, paste0(author_names[author_ind], '_splines.rds'))
 }
