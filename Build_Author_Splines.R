@@ -425,7 +425,10 @@ column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confide
 
 calc_y_lims = FALSE
 write_pdf = TRUE
-pull_data = TRUE
+
+# set to TRUE to pull google sheets, setting to FALSE uses local data
+pull_data = FALSE
+
 plot_selection_type = 'by_plot'
 plot_means = FALSE
 plot_splines = FALSE
@@ -544,6 +547,7 @@ for (author_ind in authors_to_pull){
 
 mean_spline_fits = fit_splines(data_to_fit = sheet_means, plot_sheet_num, time_vec, fit_type = 'by_mean',  plot_starts, columns_to_use = c(2, 3, 4), author_ind = 1)
 saveRDS(object = mean_spline_fits, paste0('mean_splines.rds'))
+
 
 # source('cond.thresholds.R')
 # 
