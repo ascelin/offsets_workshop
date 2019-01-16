@@ -27,6 +27,7 @@ fit_splines <- function(data_to_fit, plot_sheet_num, time_vec, fit_type, plot_st
         if (fit_type == 'by_author'){
           current_data = data_to_fit[[sheet_ind]][current_data_locations, columns_to_use[spline_ind], author_ind]
         } else if (fit_type == 'by_mean'){
+
           current_data = data_to_fit[[sheet_ind]][current_data_locations, columns_to_use[spline_ind]]
         }
         
@@ -52,12 +53,12 @@ fit_splines <- function(data_to_fit, plot_sheet_num, time_vec, fit_type, plot_st
 # -------------------------------------------------
 
 
-generate_current_spline <- function(current_plot_spline, time_vec_new){
+generate_current_spline <- function(current_plot_spline, time_vec_interpolated){
   
   if (length(current_plot_spline) > 0){
-    current_plot = predict(current_plot_spline, time_vec_new)
+    current_plot = predict(current_plot_spline, time_vec_interpolated)
   } else {
-    current_plot = list(rep(0, length(time_vec_new)))
+    current_plot = list(rep(0, length(time_vec_interpolated)))
     names(current_plot) = 'y'
   }
   
@@ -67,7 +68,7 @@ generate_current_spline <- function(current_plot_spline, time_vec_new){
 
 
 plot_spline_data <- function(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts, 
-                         author_names, author_ind, sheet_means, time_vec, time_vec_new, sheet_y_lims, worksheet_names){
+                         author_names, author_ind, sheet_means, time_vec, time_vec_interpolated, sheet_y_lims, worksheet_names){
   
   if (write_pdf == TRUE){
     spline_plot_filename = paste0('plots/spline_fits_')
@@ -120,16 +121,16 @@ plot_spline_data <- function(author_spline_fits, mean_spline_fits, plot_author, 
       
       current_plot_set = list()
       if (plot_author == TRUE){
-        current_plot_list = generate_current_spline(current_plot_spline = author_spline_fits[[sheet_ind]][[management_class]], time_vec_new)
+        current_plot_list = generate_current_spline(current_plot_spline = author_spline_fits[[sheet_ind]][[management_class]], time_vec_interpolated)
         current_plot_set = append(current_plot_set, list(current_plot_list))
       } 
       
       if (plot_mean == TRUE){
-        current_plot_list = generate_current_spline(current_plot_spline = mean_spline_fits[[sheet_ind]][[management_class]], time_vec_new)
+        current_plot_list = generate_current_spline(current_plot_spline = mean_spline_fits[[sheet_ind]][[management_class]], time_vec_interpolated)
         current_plot_set = append(current_plot_set, list(current_plot_list))
       }
       
-      overlay_plot_list(plot_type = 'non-overlay', current_plot_set, x_vec = time_vec_new, yticks = 'y', y_lims, heading = plot_heading, y_lab, x_lab = '', 
+      overlay_plot_list(plot_type = 'non-overlay', current_plot_set, x_vec = time_vec_interpolated, yticks = 'y', y_lims, heading = plot_heading, y_lab, x_lab = '', 
                         col_vec = rep('black', 2), lty_vec = c(1, 2), lwd_vec = rep(plot_lwd, length(current_plot_set)), 
                         legend_vec = 'NA', legend_loc = FALSE)
       
@@ -146,7 +147,7 @@ plot_spline_data <- function(author_spline_fits, mean_spline_fits, plot_author, 
       
       
       # x <- c(0, 0, 100, 100)
-      x <- c(time_vec_new[1], time_vec_new[1], time_vec_new[length(time_vec_new)], time_vec_new[length(time_vec_new)])
+      x <- c(time_vec_interpolated[1], time_vec_interpolated[1], time_vec_interpolated[length(time_vec_interpolated)], time_vec_interpolated[length(time_vec_interpolated)])
       
       
       # low condition
@@ -444,7 +445,7 @@ sheet_num = length(worksheets_to_pull)
 
 authors_to_pull = c(1)
 authors_to_plot = 1
-time_vec_new = 0:100
+time_vec_interpolated = 0:100
 fit_type = 'by_mean'
 
 # 2 - lower bound
@@ -541,7 +542,7 @@ for (author_ind in authors_to_pull){
     saveRDS(object = author_spline_fits, paste0(author_names[author_ind], '_splines.rds'))
 }
 
-mean_spline_fits = fit_splines(data_to_fit = sheet_means, plot_sheet_num, time_vec_new, fit_type = 'by_mean',  plot_starts, columns_to_use = c(2, 3, 4), author_ind, spline_df = 4)
+mean_spline_fits = fit_splines(data_to_fit = sheet_means, plot_sheet_num, time_vec, fit_type = 'by_mean',  plot_starts, columns_to_use = c(2, 3, 4), author_ind = 1)
 saveRDS(object = mean_spline_fits, paste0('mean_splines.rds'))
 
 # source('cond.thresholds.R')
@@ -553,6 +554,6 @@ saveRDS(object = mean_spline_fits, paste0('mean_splines.rds'))
 # 
 # if (plot_splines == TRUE){
 #   plot_spline_data(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts,
-#              author_names, author_ind, sheet_means, time_vec, time_vec_new, sheet_y_lims, worksheet_names_to_use)
+#              author_names, author_ind, sheet_means, time_vec, time_vec_interpolated, sheet_y_lims, worksheet_names_to_use)
 # }
 
