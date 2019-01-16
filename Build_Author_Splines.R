@@ -166,6 +166,13 @@ if (calc_y_lims == TRUE){
 }
 
 
+# Note: the object author_spline_fits has the following structure 
+#   author_spline_fits[[1:20]][[1:3]][[1:3]]
+#    where the 1:20 is the sheet number from the google sheets for each expert
+#    the first 1:3 the management class (eg typical activities, low intensity mgmt, high intensity mgmt) 
+#    the second 1:3 is specifies the lower, upper and best estimates from the experts
+
+
 for (author_ind in authors_to_plot){
     author_spline_fits = fit_splines(data_to_fit = numerical_data_matrix, plot_sheet_num, time_vec, fit_type = 'by_author',  plot_starts, columns_to_use = c(2, 3, 4), author_ind)
     saveRDS(object = author_spline_fits, paste0(author_names[author_ind], '_splines.rds'))
