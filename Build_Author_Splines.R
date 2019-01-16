@@ -52,14 +52,19 @@ column_names = c('Year', 'Lower Bound',	'Upper Bound',	'Best Estimate',	'Confide
 calc_y_lims = FALSE
 write_pdf = FALSE
 
-# set to TRUE to pull google sheets, setting to FALSE uses local data
+# Set to TRUE to pull google sheets, setting to FALSE uses local data
 pull_data = FALSE
+
+# plots the generated splines 
+plot_splines = TRUE
+
+# plot the raw data from the google sheets
+plot_sheets = TRUE
 
 plot_selection_type = 'by_plot'
 plot_means = FALSE
-plot_splines = FALSE
-plot_sheets = TRUE
-plot_mean = FALSE
+
+plot_mean = TRUE
 plot_author = TRUE
 
 #output_pdf_filename = 'CP_elicitation_workshop_1.pdf'
@@ -70,19 +75,27 @@ worksheets_to_pull = c(2:13, 15:22)  # worksheets to pull down from google sheet
 worksheets_to_collate = c(2:13, 15:22) # what data to work with - Note sheet 1 is instructions, 14 is benchmark 
 #worksheets_to_collate = c(2:13, 15:22)
 
-sheet_num = length(worksheets_to_pull)
+plot_sheet_num = length(worksheets_to_collate)
 
+# Specify which authors pull data down from the google sheets
 authors_to_pull = c(1)
+
+# Specify which authors to plot as a vector of values (eg 1:5, 1:3 or 1 etc.
+# Note: script crashes if just use a value like "3", as needs to be a vector
+# starting at 1 
 authors_to_plot = 1:5
-time_vec_interpolated = 0:80
+
+
 fit_type = 'by_mean'
 
 # 2 - lower bound
 # 3 - upper bound
 # 4 - best estimate
-column_to_use = 4
-plot_sheet_num = length(worksheets_to_collate)
+column_to_use = 3
 
+
+
+time_vec_interpolated = 0:80
 
 author_ind = 1
 
@@ -184,22 +197,32 @@ saveRDS(object = mean_spline_fits, paste0('mean_splines.rds'))
 
 # this generated the condition_class_bounds object
 source('cond.thresholds.R')
-
  
 
 if (plot_sheets == TRUE){
 
-    # NOTE: only using time_vec[1:4], as the raw data is just 0, 20, 40, 60
-    # years. The splines have an extra time point at the end and go out to 80
-    # years, and we just assume this last20 years is at the constrant value from t=60 years.
+  # This function plots the results in each of the authors_to_plot, and then
+  # overlays with with the mean values for those authors.
 
-   plot_sheet_data(numerical_data_matrix, plot_sheet_num = length(worksheets_to_collate),   author_num = length(authors_to_plot), plot_x_space, plot_y_space, time_vec[1:4], comments, 
+  # NOTE: only using time_vec[1:4], as the raw data is just 0, 20, 40, 60
+  # years. The splines have an extra time point at the end and go out to 80
+  # years, and we just assume this last 20 years is at the constrant value from
+  # t=60 years.
+
+   plot_sheet_data(numerical_data_matrix, plot_sheet_num = length(worksheets_to_collate), author_num = length(authors_to_plot), plot_x_space, plot_y_space, time_vec[1:4], comments, 
                  sheet_mins, sheet_maxs, sheet_means, plot_starts, plot_nums, worksheet_comments, worksheet_names_to_use, sheet_y_lims)
 }
 
-# if (plot_splines == TRUE){
+if (plot_splines == TRUE){
 
-#   plot_spline_data(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts,
-#              author_names, author_ind, sheet_means, time_vec[1:4], time_vec_interpolated, sheet_y_lims, worksheet_names_to_use, condition_class_bounds)
-# }
+  # This plots the value of the splines and overlays the points over which they go through.
+
+   # plot thje splines for the last specified author 
+    plot_spline_data(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts,
+               author_names, author_ind, sheet_means, time_vec[1:4], time_vec_interpolated, sheet_y_lims, worksheet_names_to_use, condition_class_bounds, column_to_use)
+
+   # plot the splines for the means 
+   #plot_spline_data(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts,
+   #           author_names, author_ind, sheet_means, time_vec[1:4], time_vec_interpolated, sheet_y_lims, worksheet_names_to_use, condition_class_bounds, column_to_use)
+ }
 

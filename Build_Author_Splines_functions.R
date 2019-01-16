@@ -61,7 +61,7 @@ generate_current_spline <- function(current_plot_spline, time_vec_interpolated){
 
 
 plot_spline_data <- function(author_spline_fits, mean_spline_fits, plot_author, plot_mean, numerical_data_matrix, plot_sheet_num, plot_x_space, plot_y_space, plot_starts, 
-                         author_names, author_ind, sheet_means, time_vec, time_vec_interpolated, sheet_y_lims, worksheet_names, ct){
+                         author_names, author_ind, sheet_means, time_vec, time_vec_interpolated, sheet_y_lims, worksheet_names, ct, column_to_use){
   
   if (write_pdf == TRUE){
     spline_plot_filename = paste0('plots/spline_fits_')
@@ -114,12 +114,12 @@ plot_spline_data <- function(author_spline_fits, mean_spline_fits, plot_author, 
       
       current_plot_set = list()
       if (plot_author == TRUE){
-        current_plot_list = generate_current_spline(current_plot_spline = author_spline_fits[[sheet_ind]][[management_class]][[3]], time_vec_interpolated)
+        current_plot_list = generate_current_spline(current_plot_spline = author_spline_fits[[sheet_ind]][[management_class]][[column_to_use-1]], time_vec_interpolated)
         current_plot_set = append(current_plot_set, list(current_plot_list))
       } 
       
       if (plot_mean == TRUE){
-        current_plot_list = generate_current_spline(current_plot_spline = mean_spline_fits[[sheet_ind]][[management_class]][[3]], time_vec_interpolated)
+        current_plot_list = generate_current_spline(current_plot_spline = mean_spline_fits[[sheet_ind]][[management_class]][[column_to_use-1]], time_vec_interpolated)
         current_plot_set = append(current_plot_set, list(current_plot_list))
       }
       
